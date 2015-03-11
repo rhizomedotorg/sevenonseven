@@ -2768,6 +2768,9 @@ html, body {
 .hidden {
   display: none; }
 
+.underline {
+  text-decoration: underline; }
+
 .header-container {
   width: 100%;
   background-color: black;
