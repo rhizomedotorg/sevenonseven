@@ -66,6 +66,7 @@ $header-height: 60px;
             width: 88px;
             height: 62px;
 
+            background-size: 100%;
             background-image: url(../images/sevenonseven.png);
         }
         .counter {
@@ -84,6 +85,11 @@ $header-height: 60px;
             bottom: $margin;
             width: 88px;
             height: 17px;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
             // background-image: url(../images/rhizome.png);
         }
         .social {
@@ -212,18 +218,20 @@ svg {
         }
 
         img {
-            width: 40%;
+            width: 30%;
+            margin-top: 10px;
         }
 
         .social {
             img {
                 height: 20px;
+                margin-top: 0;
                 width: auto;
             }
 
             table {
 
-                width: 25%;
+                width: 20%;
                 text-align: center;
                 margin: 0 auto;
                 tr {

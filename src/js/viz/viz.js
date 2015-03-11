@@ -41,8 +41,51 @@ function Viz($el) {
     var firstDuration = 500;
     var secondDuration = 1000;
 
-    var dotSize = circleRadius / 20;
+    var dotSize = circleRadius / 25;
     
+    var pairs = [];
+    var shuffled = _.shuffle(_.range(14));
+    _.each(_.range(14), function(i) {
+        if(i % 2 === 0) {
+            pairs.push([shuffled[i], shuffled[i+1]]);
+        }
+    });
+
+    svg.selectAll('.line')
+        .data(pairs)
+        .enter()
+        .append('line')
+        .attr('class', 'line')
+        .attr('x1', function(d) {
+            return (width / 2) + circleRadius * Math.cos(getAngle(d[0]));
+        })
+        .attr('y1', function(d) {
+            return (height / 2) + circleRadius * Math.sin(getAngle(d[0]));
+        })
+        .attr('x2', function(d) {
+            return (width / 2) + circleRadius * Math.cos(getAngle(d[0]));
+        })
+        .attr('y2', function(d) {
+            return (height / 2) + circleRadius * Math.sin(getAngle(d[0]));
+        })
+        .style('stroke', '#7c62ff')
+        .style('stroke-width', 3)
+        .transition()
+        .duration(function(d, i) {
+            return 300 + Math.random() * i * 200;
+        })
+        .delay(function(d, i) {
+            return (firstDuration + (14 * firstTransitionSpeed)) + (i%7) * secondTransitionSpeed;
+        })
+        .attr('x2', function(d) {
+            console.log(d[1]);
+            return (width / 2) + circleRadius * Math.cos(getAngle(d[1]));
+        })
+        .attr('y2', function(d) {
+            console.log(d);
+            return (height / 2) + circleRadius * Math.sin(getAngle(d[1]));
+        });
+
     var circles = svg.selectAll('.dot')
         .data(_.range(14))
         .enter()
@@ -74,6 +117,7 @@ function Viz($el) {
         }, 200 + firstDuration + (14 * firstTransitionSpeed) + (6 * secondTransitionSpeed));
 
 
+
     window.onresize = _.throttle(function() {
 
         width = $(document).width();
@@ -94,6 +138,22 @@ function Viz($el) {
                 return (height / 2) + circleRadius * Math.sin(getAngle(i));
             })
             .attr('r', dotSize);
+
+
+        svg.selectAll('.line')
+            .transition()
+            .attr('x1', function(d) {
+                return (width / 2) + circleRadius * Math.cos(getAngle(d[0]));
+            })
+            .attr('y1', function(d) {
+                return (height / 2) + circleRadius * Math.sin(getAngle(d[0]));
+            })
+            .attr('x2', function(d) {
+                return (width / 2) + circleRadius * Math.cos(getAngle(d[1]));
+            })
+            .attr('y2', function(d) {
+                return (height / 2) + circleRadius * Math.sin(getAngle(d[1]));
+            })
     }, 200);
 
 
