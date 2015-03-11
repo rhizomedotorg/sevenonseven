@@ -66,7 +66,7 @@ $header-height: 60px;
             width: 88px;
             height: 62px;
 
-            background-image: url(/images/sevenonseven.png);
+            background-image: url(../images/sevenonseven.png);
         }
         .counter {
             position: absolute;
@@ -84,7 +84,7 @@ $header-height: 60px;
             bottom: $margin;
             width: 88px;
             height: 17px;
-            // background-image: url(/images/rhizome.png);
+            // background-image: url(../images/rhizome.png);
         }
         .social {
             position: absolute;
@@ -181,7 +181,7 @@ svg {
         width: 76px;
         height: 76px;
         background-size: 100%;
-        background-image: url(/images/mobile-logo.png);
+        background-image: url(../images/mobile-logo.png);
     }
 
     .announcement {
