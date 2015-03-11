@@ -1,0 +1,108 @@
+extends layout
+
+
+block content
+
+    .hero.desktop
+        .svg-container
+        .content-container.hidden
+            .logo.sevenonseven
+            .counter
+                span.days-container
+                    | #{utils.getDaysAway()}
+                span.hours-container
+                    | #{utils.getHoursAway()}
+                span.minutes-container
+                    | #{utils.getMinutesAway()}
+                //- span.seconds-container
+                    | #{utils.getSecondsAway()}
+
+            .announcement-container
+                .announcement
+                    .save-the-date
+                        | Saturday, May 2nd, 12-6PM
+
+                    .location
+                        | New Mesuem
+                        br
+                        | 235 Bowery, NY 10002
+
+                    .details
+                        | Presented by Rhizome, the Seven on Seven conference pairs seven leading 
+                        | artists with seven luminary technologists in teams of two, and challenges
+                        | them to develop something new over the course of a single day. They
+                        | unveil their creations, and process, at this public event.
+
+            .logo.rhizome
+                a(href="https://rhizome.org", target="_blank")
+                    img(src="/images/rhizome.png")
+
+            .social
+                .hashtag
+                    | #7ON7NYC
+                .icon
+                    a(href="https://twitter.com/rhizome", target="_blank")
+                        img(src="/images/twitter.png")
+                .icon
+                    a(href="https://instagram.com/rhizomedotorg/", target="_blank")
+                        img(src="/images/instagram.png")
+
+    .hero.mobile
+        table.counter
+            tr
+                td.days-container
+                    | #{utils.getDaysAway()}
+                td.hours-container
+                    | #{utils.getHoursAway()}
+                td.minutes-container
+                    | #{utils.getMinutesAway()}
+
+
+
+        .mobile-logo
+
+        .announcement-container
+            .announcement
+                .save-the-date
+                    | Saturday, May 2nd, 12-6PM
+
+                .location
+                    | New Mesuem
+                    br
+                    | 235 Bowery, NY 10002
+
+                .details
+                    | Presented by Rhizome, the Seven on Seven conference pairs seven leading 
+                    | artists with seven luminary technologists in teams of two, and challenges
+                    | them to develop something new over the course of a single day. They
+                    | unveil their creations, and process, at this public event.
+
+        .meta-section
+            .details
+                | Presented By
+
+            a(href="https://rhizome.org", target="_blank")
+                img(src="/images/rhizome-mobile.png")
+        
+        .meta-section
+            .details
+                | Follow Us
+
+            .social
+
+                table
+                    tr
+                        td
+                            a(href="https://twitter.com/rhizome", target="_blank")
+                                img(src="/images/twitter.png")
+
+                        td
+                            a(href="https://instagram.com/rhizomedotorg/", target="_blank")
+                                img(src="/images/instagram.png")
+
+        .meta-section
+            .mobile-hashtag
+                | #7ON7NYC
+
+
+

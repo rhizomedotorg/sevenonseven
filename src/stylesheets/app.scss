@@ -1,0 +1,249 @@
+@import "mixins";
+@import "fonts";
+@import "lib/animate";
+// @import "lib/base";
+// @import "lib/skeleton";
+
+$purple: #5f3fff;
+
+.centered {
+  text-align: center;
+}
+
+html, body {
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    background-color: $purple;
+}
+
+.hidden {
+    display: none;
+}
+
+$header-height: 60px;
+.header-container {
+
+    
+    width: 100%;
+    background-color: black;
+
+    position: fixed;
+    height: $header-height;
+
+    h3 {
+        color: #fff;
+        margin: 0;
+        padding-top: $header-height / 4;
+    }
+
+    z-index: 1000;
+}
+
+.mobile {
+  display: none;
+}
+
+
+.hero {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: $purple;
+
+    &.desktop {
+        bottom: 0;
+        position: fixed;
+    }
+
+    .content-container {
+
+        $margin: 5%;
+
+        .sevenonseven {
+            position: absolute;
+            left: $margin;
+            top: $margin;
+            width: 88px;
+            height: 62px;
+
+            background-image: url(/images/sevenonseven.png);
+        }
+        .counter {
+            position: absolute;
+            right: $margin;
+            top: $margin;
+            text-transform: uppercase;
+
+            span {
+                margin-left: 20px;
+            }
+        }
+        .rhizome {
+            position: absolute;
+            left: $margin;
+            bottom: $margin;
+            width: 88px;
+            height: 17px;
+            // background-image: url(/images/rhizome.png);
+        }
+        .social {
+            position: absolute;
+            right: $margin;
+            bottom: $margin;
+
+            .hashtag {
+                display: inline-block;
+                // position: relative;
+                // top: -2px;
+            }
+
+            .icon {
+                display: inline-block;   
+
+                width: 15px;
+                height: 15px;
+                margin-left: 20px;
+                img {
+                    vertical-align: baseline;
+                    width: auto;
+                    height: 100%;
+                }
+            }
+        }
+
+        .announcement-container {
+
+            @include vertical-align;
+            width: 100%;
+            position: absolute;
+            text-align: center;
+            // margin: 0 auto;
+
+            .announcement {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 18px;
+
+
+                .save-the-date {
+                    text-transform: uppercase;
+                    font-size: 24px;
+                    margin-bottom: 40px;
+                }
+                .location {
+                    font-size: 24px;
+                    margin-bottom: 40px;
+                    text-transform: uppercase;   
+                }
+            }
+        }
+
+        
+
+    }
+}
+
+svg {
+    circle {
+        fill: white;
+    }
+}
+
+.mobile {
+
+    &.hero {
+        position: absolute;
+    }
+    .counter {
+        
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 15px;
+        text-align: center;
+        text-transform: uppercase;
+
+        tr {
+            width: 100%;
+        }
+        td {
+            width: 33%;
+        }
+    }
+
+    text-align: center;
+    width: 100%;
+
+    .mobile-logo {
+        margin: 0 auto;
+        margin-top: 30px;
+        text-align: center;
+        width: 76px;
+        height: 76px;
+        background-size: 100%;
+        background-image: url(/images/mobile-logo.png);
+    }
+
+    .announcement {
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+        width: 60%;
+
+        .save-the-date {
+            text-transform: uppercase;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        .location {
+            font-size: 18px;
+            margin-bottom: 30px;
+            text-transform: uppercase;   
+        }
+    }
+
+    .meta-section {
+        margin-top: 40px;
+        .details {
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+
+        img {
+            width: 40%;
+        }
+
+        .social {
+            img {
+                height: 20px;
+                width: auto;
+            }
+
+            table {
+
+                width: 25%;
+                text-align: center;
+                margin: 0 auto;
+                tr {
+                    width: 100%;
+                    td {
+                        width: 50%;
+                    }
+                }
+
+            }
+        }
+
+        .mobile-hashtag {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+
+@import "views/mobile-content";
+@import "views/desktop-content";
+@import "mobile";
+
