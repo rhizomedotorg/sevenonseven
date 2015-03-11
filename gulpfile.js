@@ -90,11 +90,13 @@ gulp.task('jade', function() {
     var utils = require('./src/js/utils');
 
     
-    var host = '/' + projectName + '/';
+    // var host = '/' + projectName + '/';
 
-    if(!PRODUCTION_MODE) {
-        host = '/';
-    }
+    // if(!PRODUCTION_MODE) {
+    //     host = '/';
+    // }
+
+    var host = './';
     
     return gulp.src('src/templates/index.jade')
                .pipe(jade({
