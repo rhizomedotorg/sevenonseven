@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Dosis);
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,500);
 /* #Font-Face
 ================================================== */
 /*  This is the proper syntax for an @font-face file
@@ -2796,6 +2796,7 @@ html, body {
     top: 5%;
     width: 88px;
     height: 62px;
+    background-size: 100%;
     background-image: url(../images/sevenonseven.png); }
   .hero .content-container .counter {
     position: absolute;
@@ -2810,6 +2811,9 @@ html, body {
     bottom: 5%;
     width: 88px;
     height: 17px; }
+    .hero .content-container .rhizome img {
+      width: 100%;
+      height: auto; }
   .hero .content-container .social {
     position: absolute;
     right: 5%;
@@ -2895,12 +2899,14 @@ svg circle {
       font-size: 12px;
       margin-bottom: 10px; }
     .mobile .meta-section img {
-      width: 40%; }
+      width: 30%;
+      margin-top: 10px; }
     .mobile .meta-section .social img {
       height: 20px;
+      margin-top: 0;
       width: auto; }
     .mobile .meta-section .social table {
-      width: 25%;
+      width: 20%;
       text-align: center;
       margin: 0 auto; }
       .mobile .meta-section .social table tr {
