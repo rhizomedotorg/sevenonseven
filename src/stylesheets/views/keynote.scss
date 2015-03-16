@@ -1,0 +1,25 @@
+
+
+.keynote {
+    img {
+        border-radius: 50%;
+    }
+
+    .participant-details {
+
+        &.left {
+            text-align: right;  
+        }
+
+
+        &.center {
+            text-align: center;
+        }
+        
+    }
+
+    .mini-participant {
+        text-align: center;
+    }
+
+}

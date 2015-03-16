@@ -1,0 +1,21 @@
+
+
+.about {
+    img {
+        border-radius: 50%;
+    }
+
+    .about-details {
+
+        &.left {
+            text-align: right;  
+        }
+
+
+        &.center {
+            text-align: center;
+        }
+        
+    }
+
+}

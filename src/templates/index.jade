@@ -3,112 +3,19 @@ extends layout
 
 block content
 
-    .hero.desktop
-        .svg-container
-        .content-container.hidden
-            .logo.sevenonseven
-            .counter
-                span.days-container
-                    | #{utils.getDaysAway()}
-                span.hours-container
-                    | #{utils.getHoursAway()}
-                span.minutes-container
-                    | #{utils.getMinutesAway()}
-                //- span.seconds-container
-                    | #{utils.getSecondsAway()}
+    .desktop
+        include views/hero/desktop
+        include includes/header
+        .content
+            #participants
+                include views/participants/desktop
+                include views/keynote/desktop
+            include views/about/desktop
+            include views/tickets/desktop
 
-            .announcement-container
-                .announcement
-                    .save-the-date
-                        span.underline
-                            | Save the Date
-                        br
-                        | Saturday, May 2nd, 12-6PM
-
-                    .location
-                        | New Museum
-                        br
-                        | 235 Bowery, NY 10002
-
-                    .details
-                        | Presented by Rhizome, the Seven on Seven conference pairs seven leading 
-                        | artists with seven luminary technologists, and challenges
-                        | them to develop something new over the course of a single day. They
-                        | unveil their creations, and process, at this public event.
-
-            .logo.rhizome
-                a(href="https://rhizome.org", target="_blank")
-                    img(src="#{STATIC_URL}images/rhizome.png")
-
-            .social
-                .hashtag
-                    | #7ON7NYC
-                .icon
-                    a(href="https://twitter.com/rhizome", target="_blank")
-                        img(src="#{STATIC_URL}images/twitter.png")
-                .icon
-                    a(href="https://instagram.com/rhizomedotorg/", target="_blank")
-                        img(src="#{STATIC_URL}images/instagram.png")
-
-    .hero.mobile
-        table.counter
-            tr
-                td.days-container
-                    | #{utils.getDaysAway()}
-                td.hours-container
-                    | #{utils.getHoursAway()}
-                td.minutes-container
-                    | #{utils.getMinutesAway()}
-
-
-
-        .mobile-logo
-
-        .announcement-container
-            .announcement
-                .save-the-date
-                    span.underline
-                        | Save the Date
-                    br
-                    | Saturday, May 2nd, 12-6PM
-
-                .location
-                    | New Museum
-                    br
-                    | 235 Bowery, NY 10002
-
-                .details
-                    | Presented by Rhizome, the Seven on Seven conference pairs seven leading 
-                    | artists with seven luminary technologists, and challenges
-                    | them to develop something new over the course of a single day. They
-                    | unveil their creations, and process, at this public event.
-
-        .meta-section
-            .details
-                | Presented By
-
-            a(href="https://rhizome.org", target="_blank")
-                img(src="#{STATIC_URL}images/rhizome-mobile.png")
-        
-        .meta-section
-            .details
-                | Follow Us
-
-            .social
-
-                table
-                    tr
-                        td
-                            a(href="https://twitter.com/rhizome", target="_blank")
-                                img(src="#{STATIC_URL}images/twitter.png")
-
-                        td
-                            a(href="https://instagram.com/rhizomedotorg/", target="_blank")
-                                img(src="#{STATIC_URL}images/instagram.png")
-
-        .meta-section
-            .mobile-hashtag
-                | #7ON7NYC
+    .mobile        
+        include views/hero/mobile
+        //- include views/participants/desktop
 
 
 

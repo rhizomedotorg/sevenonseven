@@ -20,8 +20,8 @@ function Viz($el) {
 
     this.$el = $el;
 
-    var width = $(document).width();
-    var height = $(document).height();
+    var width = $(window).width();
+    var height = $(window).height();
 
     // do some cool vizualization here
 
@@ -98,6 +98,16 @@ function Viz($el) {
         .attr('cy', function(i) {
             return (height / 2) + circleRadius * Math.sin(getAngle(i));
         })
+        .on('mouseover', function(d) {
+            d3.select(this)
+                .transition()
+                .attr('r', dotSize * 3);  
+        })
+        .on('mouseout', function(d) {
+            d3.select(this)
+                .transition()
+                .attr('r', dotSize);
+        })
         .transition()
         .duration(firstDuration)
         .delay(function(i) {
@@ -120,8 +130,8 @@ function Viz($el) {
 
     window.onresize = _.throttle(function() {
 
-        width = $(document).width();
-        height = $(document).height();
+        width = $(window).width();
+        height = $(window).height();
         circleRadius = 0.8 * Math.min(width, height) / 2;
         dotSize = circleRadius / 25;
 

@@ -1,0 +1,21 @@
+
+
+.participants {
+
+	img {
+	    border-radius: 50%;
+	}
+
+	.participant-details {
+
+		&.left {
+			text-align: right;	
+		}
+		
+	}
+
+	.mini-participant {
+		text-align: center;
+	}
+
+}

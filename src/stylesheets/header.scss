@@ -1,0 +1,49 @@
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: $headerHeight;
+    opacity: 0;
+
+    color: $purple;
+    z-index: 1000;
+
+    background-color: white;
+    $margin: 5%;
+
+    .sevenonseven {
+        position: absolute;
+        left: $margin;
+        top: $margin;
+        width: 88px;
+        height: 62px;
+
+        background-size: 100%;
+        background-image: url(../images/sevenonseven.png);
+    }
+    .navigation {
+
+        ul {
+            li {
+                display: inline-block;
+                margin-left: 20px;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+
+                    &.active {
+                        text-decoration: underline;
+                        color: $purple;
+                    }
+                }
+            }
+        }
+        position: absolute;
+        right: $margin;
+        top: 20px;
+        text-transform: uppercase;
+    }
+
+}

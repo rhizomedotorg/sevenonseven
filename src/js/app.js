@@ -18,7 +18,7 @@ var desktopView = null;
 // var mobileView = null;
 // var MOBILE_BREAKPOINT = 760;
 
-var $desktopEl = $('.desktop.hero');
+var $desktopEl = $('.desktop');
 
 
 var $days = $('.days-container');

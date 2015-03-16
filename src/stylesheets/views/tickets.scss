@@ -1,0 +1,19 @@
+.tickets {
+
+
+	.ticket-box {
+		box-sizing: border-box;
+		width: 100%;
+		border: solid 3px $purple;
+		background-color: white;
+
+		min-height: 200px;
+
+
+		&.inverted {
+			border: solid 0 $purple;
+			background-color: $purple;
+			color: white;
+		}
+	}
+}

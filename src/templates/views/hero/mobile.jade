@@ -1,0 +1,43 @@
+.hero
+    table.counter
+        tr
+            td.days-container
+                | #{utils.getDaysAway()}
+            td.hours-container
+                | #{utils.getHoursAway()}
+            td.minutes-container
+                | #{utils.getMinutesAway()}
+
+
+
+    .mobile-logo
+
+    .announcement-container
+        include includes/announcement
+
+    .meta-section
+        .details
+            | Presented By
+
+        a(href="https://rhizome.org", target="_blank")
+            img(src="#{STATIC_URL}images/rhizome-mobile.png")
+    
+    .meta-section
+        .details
+            | Follow Us
+
+        .social
+
+            table
+                tr
+                    td
+                        a(href="https://twitter.com/rhizome", target="_blank")
+                            img(src="#{STATIC_URL}images/twitter.png")
+
+                    td
+                        a(href="https://instagram.com/rhizomedotorg/", target="_blank")
+                            img(src="#{STATIC_URL}images/instagram.png")
+
+    .meta-section
+        .mobile-hashtag
+            | #7ON7NYC

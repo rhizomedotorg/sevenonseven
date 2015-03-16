@@ -1,0 +1,138 @@
+
+.hero {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: $purple;
+
+
+    .content-container {
+
+        $margin: 5%;
+        .navigation {
+
+            ul {
+                li {
+                    display: inline-block;
+                    margin-left: 20px;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+
+                        &.active {
+                            // text-decoration: underline;
+                            // color: $purple;
+                        }
+                    }
+                }
+            }
+            position: absolute;
+            right: $margin;
+            top: 20px;
+            text-transform: uppercase;
+        }
+
+        .sevenonseven {
+            position: absolute;
+            left: $margin;
+            top: $margin;
+            width: 88px;
+            height: 62px;
+
+            background-size: 100%;
+            background-image: url(../images/sevenonseven.png);
+        }
+        .counter {
+            position: absolute;
+            right: $margin;
+            top: $margin;
+            text-transform: uppercase;
+
+            span {
+                margin-left: 20px;
+            }
+        }
+        .rhizome {
+            position: absolute;
+            left: $margin;
+            bottom: $margin;
+            width: 88px;
+            height: 17px;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+            // background-image: url(../images/rhizome.png);
+        }
+        .social {
+            position: absolute;
+            right: $margin;
+            bottom: $margin;
+
+            .hashtag {
+                display: inline-block;
+                // position: relative;
+                // top: -2px;
+            }
+
+            .icon {
+                display: inline-block;   
+
+                width: 15px;
+                height: 15px;
+                margin-left: 20px;
+                img {
+                    vertical-align: baseline;
+                    width: auto;
+                    height: 100%;
+                }
+            }
+        }
+
+        .announcement-container {
+
+            @include vertical-align;
+            width: 100%;
+            position: absolute;
+            text-align: center;
+            // margin: 0 auto;
+
+            .announcement {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 18px;
+
+
+                .save-the-date {
+                    text-transform: uppercase;
+                    font-size: 24px;
+                    margin-bottom: 40px;
+                }
+                .location {
+                    font-size: 24px;
+                    margin-bottom: 40px;
+                    text-transform: uppercase;   
+                }
+            }
+        }
+
+        
+
+    }
+}
+
+svg {
+    circle {
+        fill: white;
+    }
+}
+
+.desktop {
+    .hero {
+        bottom: 0;
+        position: fixed;
+    }
+}
