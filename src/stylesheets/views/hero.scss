@@ -57,13 +57,14 @@
             position: absolute;
             left: $margin;
             bottom: $margin;
-            width: 88px;
-            height: 17px;
+            width: 231px;
+            height: 42px;
 
             img {
                 width: 100%;
                 height: auto;
             }
+
             // background-image: url(../images/rhizome.png);
         }
         .social {
@@ -72,21 +73,43 @@
             bottom: $margin;
 
             .hashtag {
+
                 display: inline-block;
                 // position: relative;
                 // top: -2px;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+
+                    &:visited {
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+
+                border-bottom: solid 3px $purple;
+
+                &:hover {
+                    border-bottom-color: white;
+                }
             }
 
             .icon {
-                display: inline-block;   
+                display: inline-block; 
+                border-bottom: solid 3px $purple;
 
-                width: 15px;
-                height: 15px;
+                &:hover {
+                    border-bottom-color: white;
+                }
+                width: 20px;
+                height: 20px;
                 margin-left: 20px;
+                text-align: center;
                 img {
                     vertical-align: baseline;
                     width: auto;
-                    height: 100%;
+                    height: 75%;
                 }
             }
         }

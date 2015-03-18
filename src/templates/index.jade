@@ -8,10 +8,14 @@ block content
         include includes/header
         .content
             #participants
-                include views/participants/desktop
-                include views/keynote/desktop
-            include views/about/desktop
-            include views/tickets/desktop
+                .section
+                    include views/participants/desktop
+                .section
+                    include views/keynote/desktop
+            .section
+                include views/about/desktop
+            .section
+                include views/tickets/desktop
 
     .mobile        
         include views/hero/mobile

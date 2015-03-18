@@ -44,12 +44,17 @@ function Viz($el) {
     var dotSize = circleRadius / 25;
     
     var pairs = [];
+    var partners = [];
     var shuffled = _.shuffle(_.range(14));
     _.each(_.range(14), function(i) {
         if(i % 2 === 0) {
             pairs.push([shuffled[i], shuffled[i+1]]);
+            partners[shuffled[i]] = shuffled[i + 1];
+            partners[shuffled[i+1]] = shuffled[i];
         }
     });
+
+    console.log(partners);
 
     svg.selectAll('.line')
         .data(pairs)
@@ -98,15 +103,23 @@ function Viz($el) {
         .attr('cy', function(i) {
             return (height / 2) + circleRadius * Math.sin(getAngle(i));
         })
-        .on('mouseover', function(d) {
-            d3.select(this)
+        .on('mouseover', function(d, idx) {
+            d3.selectAll('.dot')
+                .filter(function(d, i) {
+                    return i === partners[idx] || i === idx;
+                })
                 .transition()
                 .attr('r', dotSize * 3);  
         })
-        .on('mouseout', function(d) {
-            d3.select(this)
+        .on('mouseout', function(d, idx) {
+
+            d3.selectAll('.dot')
+                .filter(function(d, i) {
+                    return i === partners[idx] || i === idx;
+                })
                 .transition()
-                .attr('r', dotSize);
+                .attr('r', dotSize);  
+
         })
         .transition()
         .duration(firstDuration)

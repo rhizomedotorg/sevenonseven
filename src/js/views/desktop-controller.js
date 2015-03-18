@@ -4,6 +4,8 @@ var _ = require('lodash');
 var utils = require('../utils');
 var Viz = require('../viz/viz');
 
+var ParticipantView = require('./participants');
+
 /*
  * View controller
  */
@@ -84,6 +86,10 @@ function DesktopViewController($el) {
             }
         });
     }
+
+    new ParticipantView({
+        el: this.$el.find('#participants')[0]
+    });
 
     onScroll();
 

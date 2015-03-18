@@ -1,0 +1,33 @@
+.row
+    .column-4
+        .participant-details.left
+            .name
+                | #{participant.artist.name}
+    .column-4.centered
+        | #{(i || 0) + 1} of 7
+
+    .column-4
+        .participant-details.right
+            .name
+                | #{participant.technologist.name}
+
+.row.close
+    
+    .column-4
+        .participant-details.left.centered
+            .occupation
+                | #{participant.artist.occupation}
+            .details
+                | #{participant.artist.description}
+
+    .column-4.image-container.overflow-hidden
+        img(src="#{participant.artist.photo}")
+        img(src="#{participant.technologist.photo}")
+
+
+    .column-4
+        .participant-details.right
+            .occupation
+                | #{participant.technologist.occupation}
+            .details
+                | #{participant.technologist.description}

@@ -1,5 +1,10 @@
 .tickets {
 
+    img {
+        max-width: 355px;
+        width: 100%;
+    }
+
 
 	.ticket-box {
 		box-sizing: border-box;
@@ -7,13 +12,49 @@
 		border: solid 3px $purple;
 		background-color: white;
 
-		min-height: 200px;
+        text-align: center;
+        padding: 30px;
+
+
+		min-height: 300px;
+
+
+        .button {
+            width: 120px;
+            border: solid 2px $purple;
+            text-transform: uppercase;
+            margin: 0 auto;
+            padding-top: 5px;
+            padding-bottom: 5px;
+
+
+            a {
+                text-decoration: none;
+                color: $purple;
+
+                &:visited {
+                    color: $purple;
+                }
+            }
+
+
+        }
 
 
 		&.inverted {
 			border: solid 0 $purple;
 			background-color: $purple;
 			color: white;
+
+            .button {
+                border-color: white;
+                a {
+                    color: white;
+                    &:visited {
+                        color: white;
+                    }
+                }
+            }
 		}
 	}
 }

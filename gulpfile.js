@@ -105,7 +105,8 @@ gulp.task('jade', function() {
                         utils: utils,
                         STATIC_URL: host,
                         moment: moment,
-                        _: _
+                        _: _,
+                        participants: require('./src/js/data/participants.json')
                     }
                }))
                .on('error', gutil.log)
