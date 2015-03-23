@@ -1,0 +1,37 @@
+
+
+
+
+.row
+    .column-12.centered.large
+        span.artist
+            | #{team.artist} 
+        | & 
+        span.technologist
+            | #{team.technologist}
+
+.row
+    .column-12.centered.project-title.large
+        | #{team.title}
+
+.row
+    .column-8.center-column
+        p.centered
+            | #{team.description}
+
+
+if team.press && team.press.length
+    .row
+        .column-12.centered.press
+            | Press
+
+            for p in team.press
+                .press-item
+                    a(href="#{p.url}")
+                        | #{p.title}
+
+
+.row
+    .column-10.center-column.centered
+        img(src="#{team.thumbnail}")
+

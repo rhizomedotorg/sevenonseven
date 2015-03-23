@@ -5,6 +5,7 @@ var utils = require('../utils');
 var Viz = require('../viz/viz');
 
 var ParticipantView = require('./participants');
+var AlumniView = require('./alumni');
 
 /*
  * View controller
@@ -89,6 +90,9 @@ function DesktopViewController($el) {
 
     new ParticipantView({
         el: this.$el.find('#participants')[0]
+    });
+    new AlumniView({
+        el: this.$el.find('#alumni')[0]
     });
 
     onScroll();

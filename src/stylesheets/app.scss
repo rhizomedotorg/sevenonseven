@@ -22,6 +22,7 @@ $black: #404041;
 
 html, body {
     font-family: 'Dosis', sans-serif;
+    font-weight: 200;
     color: white;
     background-color: $purple;
 }
@@ -42,6 +43,11 @@ $headerHeight: 100px;
     &.close {
         margin-top: 0;
     }
+}
+
+.large {
+    font-size: 55px;
+    font-weight: 200;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -85,7 +91,7 @@ h3 {
 }
 
 .section {
-    margin-bottom: 80px;
+    margin-bottom: 150px;
 }
 
 
@@ -93,7 +99,9 @@ h3 {
 @import "views/hero";
 @import "views/participants";
 @import "views/keynote";
+@import "views/alumni";
 @import "views/about";
 @import "views/tickets";
+@import "views/footer";
 @import "mobile";
 

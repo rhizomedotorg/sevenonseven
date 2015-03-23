@@ -34,6 +34,28 @@ module.exports = {
     getSecondsAway: function() {
         var val = start.diff(moment(), 'seconds') - start.diff(moment(), 'minutes') * 60;
         return (val === 1) ? val + ' sec ' : val + ' secs ';
+    },
+
+    preloadImage: function(url){
+        var img=new Image();
+        img.src=url;
+    },
+    
+    groupArrayByN: function(arr, n) {
+
+        return _.reduce(arr, function (prev, item, i) {
+
+            if(i % n === 0) {
+              prev.push([item]);
+            } else {
+              prev[prev.length - 1].push(item);
+            }
+
+            return prev;
+
+        }, []);
+
     }
+
 
 };

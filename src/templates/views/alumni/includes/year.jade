@@ -1,0 +1,25 @@
+.row
+    .column-12.centered
+        .lead-in
+            | #{sxs.title} Feature Project
+
+
+- var team = sxs.participants[0]
+include ./detail
+
+.row
+    .column-12.centered.lead-in
+        | More #{sxs.title} Participants
+
+
+
+for teamGroup in utils.groupArrayByN(sxs.participants.slice(1), 3)
+    .row
+        .column-10.center-column
+            for team in teamGroup
+                if teamGroup.length === 1
+                    .column-4.center-column
+                        include ./thumbnail
+                else
+                    .column-4
+                        include ./thumbnail

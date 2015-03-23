@@ -1,0 +1,93 @@
+
+
+.footer {
+    color: white;
+    background-color: $purple;
+    padding-top: 150px;
+
+
+    .row {
+
+        margin-top: 0;
+        margin-bottom: 0;
+
+        text-align: center;
+
+        &.breathe-bottom {
+            margin-bottom: 40px;
+        }
+
+        &.pad-top {
+            padding-top: 20px;
+        }
+
+        .icon {
+            img {
+                width: auto;
+                height: 30px;
+            }
+        }
+
+        .hashtag {
+            color: white;
+            text-decoration: none;
+            font-size: 22px;
+        }
+
+        &.partners {
+            padding-top: 50px;
+
+
+
+            text-align: center;
+
+            &.top {
+                vertical-align: top;
+            }
+
+            &.mid {
+                vertical-align: middle;
+            }
+
+            &.bottom {
+                vertical-align: baseline;
+            }
+
+            img {
+                @include vertical-align();
+                vertical-align: inherit;
+                // width: 50%;
+                // height: 50%;
+                // -webkit-transform: scale(0.5); /* Saf3.1+, Chrome */
+                // -moz-transform: scale(0.5); /* FF3.5+ */
+                // -ms-transform: scale(0.5); /* IE9 */
+                // -o-transform: scale(0.5); /* Opera 10.5+ */
+                // transform: scale(0.5);
+                /* IE6–IE9 */
+                // filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9999619230641713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=0.9999619230641713,SizingMethod='auto expand');
+
+                max-width: 75%;
+                &.tight {
+                    max-width: 50%;
+
+                    &.very {
+                        max-width: 30%;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .final-partners {
+        text-transform: uppercase;
+        margin-bottom: 150px;
+    }
+    .lead-in {
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-bottom: 33px;
+    }
+
+
+}

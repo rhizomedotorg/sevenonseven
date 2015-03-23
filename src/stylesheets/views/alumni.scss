@@ -1,0 +1,42 @@
+
+
+.alumni-container {
+
+    .alumni-nav {
+        .previous-year {
+            border-radius: 50%;
+            cursor: pointer;
+            width: 75px;
+            height: 75px;
+            box-sizing: border-box;
+
+            &.selected {
+                background-color: $purple;
+                color: white;
+            }
+
+            &:hover {
+                border: solid 2px $purple;
+                // background-color: lighten($purple, 30%);
+            }
+
+            .year {
+                @include vertical-align();
+            }
+        }
+    }
+
+    .alumni-thumbnail {
+        img {
+            width: 100%;
+        }
+    }
+
+
+    ul {
+        list-style: none;
+    }
+
+
+
+}
