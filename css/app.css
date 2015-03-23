@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Dosis:300,400,500);
+@import url(http://fonts.googleapis.com/css?family=Dosis:200,300,400,500);
 /* #Font-Face
 ================================================== */
 /*  This is the proper syntax for an @font-face file
@@ -2991,6 +2991,7 @@ img {
 
 html, body {
   font-family: 'Dosis', sans-serif;
+  font-weight: 200;
   color: white;
   background-color: #5f3eff; }
 
@@ -3004,6 +3005,10 @@ html, body {
   margin-top: 20px; }
   .row.close {
     margin-top: 0; }
+
+.large {
+  font-size: 55px;
+  font-weight: 200; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
@@ -3034,7 +3039,7 @@ h3 {
   display: none; }
 
 .section {
-  margin-bottom: 80px; }
+  margin-bottom: 150px; }
 
 .header {
   position: fixed;
@@ -3044,8 +3049,7 @@ h3 {
   height: 100px;
   opacity: 0;
   color: #5f3eff;
-  z-index: 1000;
-  background-color: white; }
+  z-index: 1000; }
   .header .sevenonseven {
     position: absolute;
     left: 5%;
@@ -3215,6 +3219,28 @@ svg circle {
 .keynote .mini-participant {
   text-align: center; }
 
+.alumni-container .alumni-nav .previous-year {
+  border-radius: 50%;
+  cursor: pointer;
+  width: 75px;
+  height: 75px;
+  box-sizing: border-box; }
+  .alumni-container .alumni-nav .previous-year.selected {
+    background-color: #5f3eff;
+    color: white; }
+  .alumni-container .alumni-nav .previous-year:hover {
+    border: solid 2px #5f3eff; }
+  .alumni-container .alumni-nav .previous-year .year {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+.alumni-container .alumni-thumbnail img {
+  width: 100%; }
+.alumni-container ul {
+  list-style: none; }
+
 .about img {
   border-radius: 50%; }
 .about .about-details {
@@ -3262,6 +3288,55 @@ svg circle {
         color: white; }
         .tickets .ticket-box.inverted .button a:visited {
           color: white; }
+
+.footer {
+  color: white;
+  background-color: #5f3eff;
+  padding-top: 150px; }
+  .footer .row {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center; }
+    .footer .row.breathe-bottom {
+      margin-bottom: 40px; }
+    .footer .row.pad-top {
+      padding-top: 20px; }
+    .footer .row .icon img {
+      width: auto;
+      height: 30px; }
+    .footer .row .hashtag {
+      color: white;
+      text-decoration: none;
+      font-size: 22px; }
+    .footer .row.partners {
+      padding-top: 50px;
+      text-align: center; }
+      .footer .row.partners.top {
+        vertical-align: top; }
+      .footer .row.partners.mid {
+        vertical-align: middle; }
+      .footer .row.partners.bottom {
+        vertical-align: baseline; }
+      .footer .row.partners img {
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        vertical-align: inherit;
+        /* IE6–IE9 */
+        max-width: 75%; }
+        .footer .row.partners img.tight {
+          max-width: 50%; }
+          .footer .row.partners img.tight.very {
+            max-width: 30%; }
+  .footer .final-partners {
+    text-transform: uppercase;
+    margin-bottom: 150px; }
+  .footer .lead-in {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 33px; }
 
 .mobile {
   text-align: center;
