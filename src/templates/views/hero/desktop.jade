@@ -1,7 +1,10 @@
 .hero
     .svg-container
     .content-container.hidden
-        .logo.sevenonseven
+        .logo.rhizome
+            | Presented By
+            img(src="#{STATIC_URL}images/rhizome.png")
+
         .navigation
             ul
                 li
@@ -10,7 +13,7 @@
                 li
                     a(href="#about")
                         | About
-                li
+                //- li
                     a(href="#alumni")
                         | Alumni
                 li
@@ -20,10 +23,22 @@
                     a(href="#tickets")
                         | Tickets
 
-        .announcement-container
-            include includes/announcement
 
-        .logo.rhizome
+        .announcement-container
+            .announcement
+                .logo
+                    img(src="./images/sevenonseven.png")
+
+        .title-container
+            .title
+                | 7th Edition: 
+                span.seven-on-seven-title
+                    | Empathy & Disgust
+                br
+                | May 2, 2015 at the New Museum
+
+
+        .logo.sponsors
             //- a(href="https://rhizome.org", target="_blank")
             img(src="#{STATIC_URL}images/sponsors.gif")
 

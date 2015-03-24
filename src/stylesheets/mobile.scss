@@ -2,6 +2,17 @@
 
 .mobile {
 
+    background-color: white;
+    .content {
+        background-color: white;
+    }
+
+    .large {
+        font-size: 27px;
+    }
+
+    // color: $purple;
+
     &.hero {
         position: absolute;
     }
@@ -92,6 +103,73 @@
             margin-bottom: 30px;
         }
     }
+
+    .cell {
+        margin-top: 33px;
+
+        .button {
+            margin-top: 33px;
+            margin-bottom: 33px;
+            position: static;
+        }
+    }
+
+    .left {
+        text-align: left;
+    }
+
+    .right {
+        text-align: right;
+    }
+
+    .about {
+        text-align: center;
+
+        .large {
+            text-align: center;
+        }
+
+        .details {
+            text-align: center;
+        }
+
+        img {
+            margin-bottom: 33px;
+            margin-top: 33px;
+        }
+    }
+
+    .section {
+        margin-bottom: 75px;
+    }
+
+    .seven-on-seven-title {
+        font-weight: 500;
+    }
+
+
+    .announcement-container {
+        margin-top: 75px;
+    }
+
+    .mobile-participant {
+        width: 100%;
+        float: none;
+        margin: 15px auto;
+        margin-bottom: 80px;
+
+        .participant-names {
+            font-size: 22px;
+        }
+
+        .name {
+            margin-top: 30px;
+        }
+    }
+
+    .final-partners {
+        font-size: 12px;
+    }
 }
 
 
@@ -99,7 +177,20 @@
 ================================================== */
 
 /* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) {}
+@media only screen and (max-width: 1200px) {
+    .ticket-box {
+        .large {
+            font-size: 44px;
+        }
+    }
+}
+@media only screen and (max-width: 990px) {
+    .ticket-box {
+        .large {
+            font-size: 36px;
+        }
+    }
+}
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {}
@@ -119,7 +210,7 @@
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 800px) {
 
     .desktop {
         display: none;

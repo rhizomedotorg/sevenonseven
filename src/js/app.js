@@ -34,7 +34,13 @@ $(function() {
         // $seconds.text(utils.getSecondsAway());
     }, 1000);
 
-    desktopView = new DesktopViewController($desktopEl);
+    if($(window).width() > 799) {
+        desktopView = new DesktopViewController($desktopEl);
+    } else {
+        $('.mini-participant').click(function() {
+            $(this).parent().find('.mobile-description').fadeToggle();
+        })
+    }
 
     $('.overflow-hidden').css('overflow', 'hidden');
 

@@ -23,7 +23,8 @@
 if team.press && team.press.length
     .row
         .column-12.centered.press
-            | Press
+            .lead-in
+                | Press
 
             for p in team.press
                 .press-item
@@ -33,5 +34,6 @@ if team.press && team.press.length
 
 .row
     .column-10.center-column.centered
-        img(src="#{team.thumbnail}")
+        .featured-thumbnail
+            img(src="#{team.thumbnail}")
 

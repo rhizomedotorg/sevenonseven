@@ -6,16 +6,7 @@
 
     .row
         .column-10.center-column
-            .row
-                for participant, i in participants
-                    .one-seventh
-                        div(class="mini-participant #{i === 0 ? 'selected' : ''}", data-participant-id="#{i}")
-                            img(src="#{participant.thumbnail}")
-
-                            .participant-names
-                                | #{participant.artist.name}
-                                br
-                                | &
-                                br
-                                | #{participant.technologist.name}
-
+            .row.mini-participant-container
+                for participant, i in participants.slice(1)
+                    include ./includes/mini-participant
+                    

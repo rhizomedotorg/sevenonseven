@@ -1,0 +1,37 @@
+.participants
+    .row
+        .column-10.center-column
+            .row.mini-participant-container
+                for participant, i in participants
+                    .column-2.mobile-participant
+                        div(class="mini-participant", data-participant-id="#{i+1}")
+                            img(src="#{participant.thumbnail}")
+
+                            .participant-names
+                                | #{participant.artist.name}
+                                br
+                                | &
+                                br
+                                | #{participant.technologist.name}
+
+                        .hidden.mobile-description    
+                            .row
+                                .participant-details
+                                    .name
+                                        | #{participant.artist.name}
+                                    .occupation
+                                        | #{participant.artist.occupation}
+
+                                .participant-details.centered
+                                    .details
+                                        | #{participant.artist.description}
+                            .row
+                                .participant-details
+                                    .name
+                                        | #{participant.technologist.name}
+                                    .occupation
+                                        | #{participant.technologist.occupation}
+
+                                .participant-details.centered
+                                    .details
+                                        | #{participant.technologist.description}

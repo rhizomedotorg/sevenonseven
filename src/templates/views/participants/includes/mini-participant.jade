@@ -1,0 +1,11 @@
+.column-2.mobile-participant
+    div(class="mini-participant", data-participant-id="#{i+1}")
+        img(src="#{participant.thumbnail}")
+
+        .participant-names
+            | #{participant.artist.name}
+            br
+            | &
+            br
+            | #{participant.technologist.name}
+

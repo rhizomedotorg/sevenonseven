@@ -4,6 +4,8 @@
 
     .image-container {
 
+        overflow: hidden;
+
         img {
             // border-radius: 50%;
             display: inline-block;
@@ -16,21 +18,21 @@
             transition: 0.5s ease-in-out;
         }
 
-        &:hover {
-            // img:first-of-type {
-            //     -webkit-transform: translateY(-105%);
-            //     -moz-transform: translateY(-105%);
-            //     -o-transform: translateY(-105%);
-            //     -ms-transform: translateY(-105%);
-            //     transform: translateY(-105%);
-            // }
-            // img:last-of-type {
-            //     -webkit-transform: translateY(105%);
-            //     -moz-transform: translateY(105%);
-            //     -o-transform: translateY(105%);
-            //     -ms-transform: translateY(105%);
-            //     transform: translateY(105%);
-            // }
+        &.outro {
+            img:first-of-type {
+                -webkit-transform: translateY(-105%);
+                -moz-transform: translateY(-105%);
+                -o-transform: translateY(-105%);
+                -ms-transform: translateY(-105%);
+                transform: translateY(-105%);
+            }
+            img:last-of-type {
+                -webkit-transform: translateY(105%);
+                -moz-transform: translateY(105%);
+                -o-transform: translateY(105%);
+                -ms-transform: translateY(105%);
+                transform: translateY(105%);
+            }
         }
     }
 
@@ -42,17 +44,17 @@
 
         font-size: 16px;
         // font-weight: 500;
-        line-height: 1.438;
+        line-height: 23px;
 
         .name {
-            font-size: 38px;
+            // font-size: 38px;
             // line-height: 0.658;
             text-transform: uppercase;
-            font-weight: 300;
+            // font-weight: 300;
         }
 
         .details {
-            padding-top: 15px;
+            padding-top: 33px;
         }
 
     }
@@ -69,6 +71,7 @@
         img {
             max-width: 84px;
             width: 100%;
+            margin-bottom: 33px;
         }
 
         &.selected {

@@ -1,31 +1,37 @@
 .row
-    .column-4
+    .column-4.mobile-column-1
         .participant-details.left
-            .name
-                | #{participant.artist.name}
-    .column-4.centered
+            .name.large
+                for word in participant.artist.name.split(' ')
+                    | #{word}
+                    br
+                //- | #{participant.artist.name}
+    .column-4.centered.mobile-column-1
         | #{(i || 0) + 1} of 7
 
-    .column-4
+    .column-4.mobile-column-1
         .participant-details.right
-            .name
-                | #{participant.technologist.name}
+            .name.large
+                for word in participant.technologist.name.split(' ')
+                    | #{word}
+                    br
+                //- | #{participant.technologist.name}
 
 .row.close
     
-    .column-4
+    .column-4.mobile-column-1
         .participant-details.left.centered
             .occupation
                 | #{participant.artist.occupation}
             .details
                 | #{participant.artist.description}
 
-    .column-4.image-container.overflow-hidden.centered
+    .column-4.image-container.overflow-hidden.centered.outro.mobile-column-1
         img(src="#{participant.artist.photo}")
         img(src="#{participant.technologist.photo}")
 
 
-    .column-4
+    .column-4.mobile-column-1
         .participant-details.right
             .occupation
                 | #{participant.technologist.occupation}

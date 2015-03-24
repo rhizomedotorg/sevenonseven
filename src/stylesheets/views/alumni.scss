@@ -9,6 +9,7 @@
             width: 75px;
             height: 75px;
             box-sizing: border-box;
+            font-size: 18px;
 
             &.selected {
                 background-color: $purple;
@@ -24,12 +25,35 @@
                 @include vertical-align();
             }
         }
+        margin-bottom: 80px;
+    }
+
+    .featured-thumbnail {
+
+        img {
+            cursor: pointer;
+            &:hover {
+                opacity: 0.6;
+            }
+        }
     }
 
     .alumni-thumbnail {
+
+        cursor: pointer;
+        &:hover {
+            opacity: 0.6;
+        }
         img {
             width: 100%;
         }
+
+        .description {
+            margin-top: 33px;
+            text-align: center;
+            font-size: 22px;
+        }
+        margin-bottom: 80px;
     }
 
 
@@ -38,5 +62,29 @@
     }
 
 
+    .lead-in {
+        font-size: 22px;
+        text-transform: uppercase;
+        margin-bottom: 33px;
+
+        &.more {
+            margin-top: 80px;
+        }
+    }
+
+    .press {
+        text-transform: uppercase;
+
+        a {
+            color: $purple;
+            border-bottom: solid 1px $purple;
+            text-decoration: none;
+            &:visited {
+                color: $purple;
+                text-decoration: none;
+            }
+        }
+        margin-bottom: 80px;
+    }
 
 }

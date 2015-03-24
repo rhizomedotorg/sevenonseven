@@ -7,7 +7,7 @@
     opacity: 0;
 
     color: $purple;
-    z-index: 1000;
+    z-index: -10;
 
     // background-color: white;
     $margin: 5%;
@@ -16,11 +16,11 @@
         position: absolute;
         left: $margin;
         top: $margin;
-        width: 88px;
-        height: 62px;
+        width: 89px;
+        height: 88px;
 
         background-size: 100%;
-        background-image: url(../images/sevenonseven.png);
+        background-image: url(../images/header/1.png);
     }
     .navigation {
 
@@ -32,10 +32,12 @@
                 a {
                     text-decoration: none;
                     color: black;
+                    border-bottom: solid 1px rgba(255, 255, 255, 0);
 
+                    &:hover,
                     &.active {
-                        text-decoration: underline;
                         color: $purple;
+                        border-bottom-color: $purple;
                     }
                 }
             }

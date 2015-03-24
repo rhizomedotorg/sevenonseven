@@ -12,6 +12,7 @@
         .navigation {
 
             ul {
+                margin: 0;
                 li {
                     display: inline-block;
                     margin-left: 20px;
@@ -24,24 +25,38 @@
                             // text-decoration: underline;
                             // color: $purple;
                         }
+                        border-bottom: solid 1px $purple;
+
+                        &:hover {
+                            border-bottom-color: white;
+                        }
                     }
                 }
             }
             position: absolute;
             right: $margin;
-            top: 20px;
+            top: $margin;
             text-transform: uppercase;
         }
 
-        .sevenonseven {
+        .rhizome {
             position: absolute;
             left: $margin;
+            // top: $margin;
             top: $margin;
-            width: 88px;
-            height: 62px;
+            text-transform: uppercase;
 
-            background-size: 100%;
-            background-image: url(../images/sevenonseven.png);
+            img {
+                width: 88px;
+                height: 17px;
+                // width: 100%;
+                // height: auto;
+                vertical-align: bottom;
+                margin-left: 10px;
+            }
+
+            // background-size: 100%;
+            // background-image: url(../images/sevenonseven.png);
         }
         .counter {
             position: absolute;
@@ -53,7 +68,7 @@
                 margin-left: 20px;
             }
         }
-        .rhizome {
+        .sponsors {
             position: absolute;
             left: $margin;
             bottom: $margin;
@@ -88,7 +103,7 @@
                     }
                 }
 
-                border-bottom: solid 3px $purple;
+                border-bottom: solid 1px $purple;
 
                 &:hover {
                     border-bottom-color: white;
@@ -97,7 +112,7 @@
 
             .icon {
                 display: inline-block; 
-                border-bottom: solid 3px $purple;
+                border-bottom: solid 1px $purple;
 
                 &:hover {
                     border-bottom-color: white;
@@ -114,12 +129,29 @@
             }
         }
 
+        .title-container {
+            font-size: 22px;
+            line-height: 30px;
+            text-transform: uppercase;
+
+            text-align: right;
+            position: absolute;
+            top: calc(50% + 85px);
+            right: calc(50% - 213px);
+
+            .seven-on-seven-title {
+                font-weight: 500;
+            }
+        }
+
         .announcement-container {
 
             @include vertical-align;
-            width: 100%;
+            // width: 100%;
+            max-width: 213px;
             position: absolute;
             text-align: center;
+            left: 50%;
             // margin: 0 auto;
 
             .announcement {
@@ -127,6 +159,10 @@
                 margin-left: auto;
                 margin-right: auto;
                 font-size: 18px;
+                max-width: 213px;
+                img {
+                    max-width: 213px;
+                }
 
 
                 .save-the-date {
@@ -150,6 +186,9 @@
 svg {
     circle {
         fill: white;
+    }
+    .circle-group {
+        cursor: pointer;
     }
 }
 

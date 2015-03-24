@@ -3,6 +3,7 @@
 var AmpersandView = require('ampersand-view');
 var participants = require('../data/participants');
 var fullParticipant = require('../../templates/views/participants/includes/full-participant.jade');
+var smallParticipant = require('../../templates/views/participants/includes/mini-participant.jade')
 var _ = require('lodash');
 var utils = require('../utils');
 
@@ -14,7 +15,13 @@ var ParticipantsView = AmpersandView.extend({
 
     initialize: function() {
 
+        this.currentIndex = 0;
+        this.$el = $(this.el);
         this.$container = $(this.query('#selected-participant-container'));
+
+        this.$el.find('.mini-participant-container').css({'height': this.$el.find('.mini-participant-container').height(), overflow: 'hidden'});
+        this.$container.css({'min-height': this.$container.height()});
+        this.$container.find('.image-container').removeClass('outro');
         _.each(participants, function(participant) {
             utils.preloadImage(participant.artist.photo);
             utils.preloadImage(participant.technologist.photo);
@@ -22,19 +29,52 @@ var ParticipantsView = AmpersandView.extend({
     },
 
     selectParticipant: function (e) {
-        $(this.queryAll('.mini-participant')).removeClass('selected');
+        // $(this.queryAll('.mini-participant')).removeClass('selected');
         var $el = $(e.target).closest('.mini-participant');
-        $el.addClass('selected');
         var idx = $el.data('participant-id');
 
+        console.log('selectParticipant')
+
+        this.setParticipant(idx);
+
+    },
+
+    setParticipant: function(idx) {
+        if(idx === this.currentIndex) {
+            return;
+        }
+        console.log('setParticipant');
         var self = this;
-        this.$container.fadeTo(500, 0, function() {
-            self.$container.html(fullParticipant({ 
-                participant: participants[idx],
-                i: idx
-            })).fadeTo(500, 1);
+        this.$container.find('.image-container').addClass('outro');
+
+        setTimeout(function() {
+            self.$container.fadeTo(500, 0, function() {
+                self.$container.html(fullParticipant({ 
+                    participant: participants[idx],
+                    i: idx
+                })).fadeTo(500, 1);
+                setTimeout(function() {
+                    self.$container.find('.image-container').removeClass('outro');
+                }, 500);
+            });
+        }, 500)
+        
+
+        var $removeEl = this.$el.find('[data-participant-id=' + idx + ']').parent();
+        $removeEl.find('.participant-names').remove();
+        $removeEl.animate({width: 0}, function() {
+            $removeEl.remove();
+            console.log('found one, slid out');
+            setTimeout(function() {
+                $('.mini-participant-container').append(smallParticipant({
+                    participant: participants[self.currentIndex],
+                    i: self.currentIndex-1
+                }));
+                self.currentIndex = idx;
+            }, 750);
         });
     }
+
 });
 
 module.exports = ParticipantsView;

@@ -10,11 +10,11 @@
                         if i === 0
                             .previous-year.selected(data-index="#{i}")
                                 .year
-                                    | #{sxs.shortTitle || sxs.title}
+                                    | !{sxs.shortTitle || sxs.title}
                         else
                             .previous-year(data-index="#{i}")
                                 .year
-                                    | #{sxs.shortTitle || sxs.title}
+                                    | !{sxs.shortTitle || sxs.title}
 
 
     - var sxs = alumni[0]

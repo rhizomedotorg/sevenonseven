@@ -10,11 +10,11 @@ block content
             #participants
                 .section
                     include views/participants/desktop
-                .section
+                //- .section
                     include views/keynote/desktop
             .section
                 include views/about/desktop
-            .section#alumni
+            //- .section#alumni
                 include views/alumni/desktop
 
             include views/tickets/desktop
@@ -25,5 +25,23 @@ block content
         include views/hero/mobile
         //- include views/participants/desktop
 
+        .content
+            #participants
+                .section
+                    .large.centered
+                        | Participants
+                    include views/participants/mobile
+                //- .section
+                    include views/keynote/desktop
+
+            include views/tickets/desktop
+
+            .section
+                include views/about/desktop
+            //- .section#alumni
+                include views/alumni/desktop
+
+
+            include views/footer/desktop
 
 

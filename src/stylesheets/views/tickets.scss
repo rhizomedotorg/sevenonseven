@@ -3,43 +3,100 @@
     img {
         max-width: 355px;
         width: 100%;
+        margin-bottom: 33px;
     }
 
+    .padded {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+
+
+    .press-tickets {
+        a {
+            text-decoration: none;
+            border-bottom: solid 1px $purple;
+            color: $purple;
+
+            &:visited {
+                text-decoration: none;
+                border-bottom: solid 1px $purple;
+                color: $purple;
+            }
+        }
+    }
 
 	.ticket-box {
 		box-sizing: border-box;
 		width: 100%;
-		border: solid 3px $purple;
+		border: solid 2px $purple;
 		background-color: white;
 
         text-align: center;
-        padding: 30px;
+        padding-top: 80px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 30px;
+
+        p {
+            // margin-bottom: 105px;
+        }
 
 
-		min-height: 300px;
+		min-height: 350px;
+        position: relative;
+
+        .price {
+            font-size: 55px;
+        }
 
 
         .button {
             width: 120px;
-            border: solid 2px $purple;
+            border: solid 1px $purple;
             text-transform: uppercase;
             margin: 0 auto;
             padding-top: 5px;
-            padding-bottom: 5px;
+            padding-bottom: 7px;
+            position: absolute;
+            bottom: 80px;
+            left: 0;
+            right: 0;
+            cursor: pointer;
 
 
             a {
                 text-decoration: none;
                 color: $purple;
+                font-size: 11px;
 
                 &:visited {
                     color: $purple;
                 }
             }
 
+            &:hover {
+                border-color: $purple;
+                background-color: $purple;
+                a {
+                    color: white;
+                }
+
+            }
+
 
         }
 
+        .sub-button {
+            position: relative;
+            display: inline-block;
+            width: 49%;
+
+            button {
+                position: auto;
+            }
+        }
 
 		&.inverted {
 			border: solid 0 $purple;
@@ -52,6 +109,14 @@
                     color: white;
                     &:visited {
                         color: white;
+                    }
+                }
+
+                &:hover {
+                    border-color: white;
+                    background-color: white;
+                    a {
+                        color: $purple;
                     }
                 }
             }

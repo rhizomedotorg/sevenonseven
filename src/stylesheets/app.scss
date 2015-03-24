@@ -25,16 +25,29 @@ html, body {
     font-weight: 200;
     color: white;
     background-color: $purple;
+    letter-spacing: 1.5px;
 }
 
-$headerHeight: 100px;
+$headerHeight: 88px;
 
 .hidden {
     display: none;
 }
+.lead-in {
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 33px;
 
+    &.more {
+        margin-top: 80px;
+    }
+}
 .underline {
     text-decoration: underline;
+}
+
+.upper {
+    text-transform: uppercase;
 }
 
 .row {
@@ -48,6 +61,7 @@ $headerHeight: 100px;
 .large {
     font-size: 55px;
     font-weight: 200;
+    line-height: 60px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -88,6 +102,19 @@ h3 {
 
 .mobile {
   display: none;
+
+    .content {
+
+        padding-top: 75px;
+        background-color: white;
+        color: $purple;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+
+        // height: 5000px;
+    }  
 }
 
 .section {

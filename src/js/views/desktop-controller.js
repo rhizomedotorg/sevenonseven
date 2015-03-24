@@ -18,7 +18,10 @@ function DesktopViewController($el) {
     this.$el = $el;
     // maybe you want to instantiate a vizualization:
     //
-    new Viz(this.$el.find('.svg-container'));
+
+
+    var viz = new Viz(this.$el.find('.svg-container'));
+
 
 
     var $header = this.$el.find('.header');
@@ -55,29 +58,32 @@ function DesktopViewController($el) {
         var pos = contentOffset - scrollPos;
         if(pos < 0 && pos > -headerHeight) {
             $header.css({
-                opacity: (Math.abs(pos) / headerHeight)
+                opacity: (Math.abs(pos) / headerHeight),
+                'z-index': 1
             });
         } else if(pos < 0) {
             $header.css({
-                opacity: 1.0
+                opacity: 1.0,
+                'z-index': 999
             });
         } else {
             $header.css({
-                opacity: 0
+                opacity: 0,
+                'z-index': -10
             });
         }
 
         $('.header .navigation a').each(function () {
             var curLink = $(this);
             var refElement = $(curLink.attr('href'));
-            console.log(curLink.attr('href'));
+            // console.log(curLink.attr('href'));
             if(!refElement) {
-                console.log(curLink.attr('href'));
+                // console.log(curLink.attr('href'));
             }
 
             var elOffset = refElement.offset().top;
-            console.log('scroll pos', scrollPos);
-            console.log('el pos', elOffset);
+            // console.log('scroll pos', scrollPos);
+            // console.log('el pos', elOffset);
             if (elOffset <= scrollPos + headerHeight && elOffset + refElement.height() > scrollPos) {
                 $('.header .navigation a').removeClass('active');
                 curLink.addClass('active');
@@ -88,12 +94,19 @@ function DesktopViewController($el) {
         });
     }
 
-    new ParticipantView({
+    var participantView = new ParticipantView({
         el: this.$el.find('#participants')[0]
     });
-    new AlumniView({
-        el: this.$el.find('#alumni')[0]
+    // new AlumniView({
+    //     el: this.$el.find('#alumni')[0]
+    // });
+    viz.on('select', function(i) {
+        $('.header a[href=#participants]').trigger('click');
+        participantView.setParticipant(i);
     });
+
+    var $ticketBox = $('.ticket-box');
+    $ticketBox.height($ticketBox.closest('.row').height());
 
     onScroll();
 
