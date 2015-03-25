@@ -19,7 +19,12 @@ var ParticipantsView = AmpersandView.extend({
         this.$el = $(this.el);
         this.$container = $(this.query('#selected-participant-container'));
 
-        this.$el.find('.mini-participant-container').css({'height': this.$el.find('.mini-participant-container').height(), overflow: 'hidden'});
+        var self = this;
+
+        setTimeout(function() {
+            self.$el.find('.mini-participant-container').css({'height': self.$el.find('.mini-participant-container').height(), overflow: 'hidden'});
+        }, 2000);
+        
         this.$container.css({'min-height': this.$container.height()});
         this.$container.find('.image-container').removeClass('outro');
         _.each(participants, function(participant) {
