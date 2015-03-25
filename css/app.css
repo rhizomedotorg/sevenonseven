@@ -3371,6 +3371,8 @@ svg .circle-group {
   padding-bottom: 30px;
   min-height: 350px;
   position: relative; }
+  .tickets .ticket-box p {
+    margin-bottom: 45px; }
   .tickets .ticket-box .price {
     font-size: 55px; }
   .tickets .ticket-box .button {
