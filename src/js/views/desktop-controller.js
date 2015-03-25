@@ -31,9 +31,9 @@ function DesktopViewController($el) {
 
     var contentOffset = $('.content').offset().top;
 
-    this.$el.find('.header a').on('click', function (e) {
+    this.$el.find('.header a, .navigation a').on('click', function (e) {
         e.preventDefault();
-        // $(document).off("scroll");
+        $(document).off("scroll");
         
         $('a').each(function () {
             $(this).removeClass('active');
@@ -46,9 +46,9 @@ function DesktopViewController($el) {
         $('html, body').stop().animate({
             'scrollTop': $target.offset().top - headerHeight
         }, 1000, 'swing', function () {
-            window.location.hash = target;
+            // window.location.hash = target;
             // onScroll();
-            // $(document).on("scroll", onScroll);
+            $(document).on("scroll", onScroll);
         });
     });
 
@@ -58,7 +58,7 @@ function DesktopViewController($el) {
         var pos = contentOffset - scrollPos;
         if(pos < 0 && pos > -headerHeight) {
             $header.css({
-                opacity: (Math.abs(pos) / headerHeight),
+                opacity: Math.min(1, (Math.abs(pos) / headerHeight) + 0.5),
                 'z-index': 1
             });
         } else if(pos < 0) {

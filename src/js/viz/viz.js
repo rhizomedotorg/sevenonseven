@@ -110,7 +110,7 @@ function Viz($el) {
             return (height / 2) + circleRadius * Math.sin(getAngle(d[0]));
         })
         .style('stroke', '#7c62ff')
-        .style('stroke-width', 3)
+        .style('stroke-width', 2)
         .transition()
         .duration(function(d, i) {
             return 300 + Math.random() * i * 200;
