@@ -31,7 +31,7 @@ function DesktopViewController($el) {
 
     var contentOffset = $('.content').offset().top;
 
-    this.$el.find('.header a, .navigation a').on('click', function (e) {
+    this.$el.find('.header a, .navigation a, .sponsors a').on('click', function (e) {
         e.preventDefault();
         $(document).off("scroll");
         

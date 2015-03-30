@@ -1,6 +1,35 @@
 
+.video-overlay-container {
+    display: none;
+    z-index: 1000000;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+
+    .video-container {
+        @include vertical-align();
+        background-color: $purple;
+
+        text-transform: uppercase;
+
+        padding-top: 33px;
+        padding-bottom: 33px;
+        text-align: center;
+
+        .content-holder {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    }
+}
 
 .alumni-container {
+
+    margin-bottom: 150px;
 
     .alumni-nav {
         .previous-year {

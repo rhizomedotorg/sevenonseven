@@ -1,0 +1,28 @@
+
+
+
+.video-overlay-container
+
+    .video-container
+        .content-holder
+            .row.centered
+                | Close Video
+
+
+            if current
+                .row
+                    .video
+                        <iframe src="#{current.video}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+            .row
+                .column-4.right
+                    if previous
+                        | Prev #{previous.artist} and #{previous.technologist}
+
+                .column-4
+                    | Seven on Seven 2014
+
+                .column-4.left
+                    if next
+                        | Next #{next.artist} and #{next.technologist}

@@ -78,8 +78,6 @@ function Viz($el) {
         return [participant.artist.name, participant.technologist.name];
     });
 
-    console.log(participantNames)
-
 
     var shuffledImages = [];
     var imageLinks = [];
@@ -96,11 +94,6 @@ function Viz($el) {
             imageLinks[shuffled[i+1]] = i / 2;
         }
     });
-
-    console.log(shuffledParticipants)
-
-    // console.log(partners);
-
 
     var self = this;
 
@@ -140,7 +133,6 @@ function Viz($el) {
         });
 
 
-
     var $namesContainer = $('.desktop .names-container');
 
     var nameFadeTimeout = null;
@@ -154,7 +146,7 @@ function Viz($el) {
                             nameFadeTimeout = setTimeout(function() {
                                 $('.desktop .center-container').fadeIn('fast');
                                 $('.desktop .names-container').fadeOut('fast');     
-                            }, 1000);
+                            }, 500);
 
                             d3.selectAll('.dot')
                                 .filter(function(d, i) {
@@ -170,10 +162,7 @@ function Viz($el) {
                                 .transition()
                                 .attr('opacity', 0);
 
-                            d3.selectAll('image').moveToBack();
-
-                            
-
+                            d3.selectAll('image').moveToBack();    
                         })
                         .on('click', function(i) {
                             console.log('select group ' + imageLinks[i]);
