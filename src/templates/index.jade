@@ -7,16 +7,19 @@ block content
         include views/hero/desktop
         include includes/header
         .content
-            #participants
-                .section
+            #participants.seven-on-seven-page-container
+                .section.seven-on-seven-page
                     include views/participants/desktop
                 //- .section
                     include views/keynote/desktop
-            .section
-                include views/about/desktop
+            .section.seven-on-seven-page-container#about
+                .seven-on-seven-page
+                    include views/about/desktop
             //- .section#alumni
                 include views/alumni/desktop
 
+            //- .seven-on-seven-page-container
+                //- .seven-on-seven-page
             include views/tickets/desktop
 
             include views/footer/desktop

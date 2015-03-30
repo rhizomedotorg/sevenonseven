@@ -58,6 +58,15 @@ $headerHeight: 88px;
     }
 }
 
+.seven-on-seven-page-container {
+
+    height: 100vh;
+
+    .seven-on-seven-page {
+        @include vertical-align;
+    }
+}
+
 .large {
     font-size: 55px;
     font-weight: 200;
@@ -118,7 +127,7 @@ h3 {
 }
 
 .section {
-    margin-bottom: 150px;
+    // margin-bottom: 150px;
 }
 
 

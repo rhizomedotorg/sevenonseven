@@ -43,8 +43,11 @@ function DesktopViewController($el) {
         var target = this.hash,
             menu = target;
         var $target = $(target);
+
+        var scrollTop = $target.offset().top + ((target === '#info' || target === '#tickets')  ? - headerHeight : 0);
+        console.log(target);
         $('html, body').stop().animate({
-            'scrollTop': $target.offset().top - headerHeight
+            'scrollTop': scrollTop
         }, 1000, 'swing', function () {
             // window.location.hash = target;
             // onScroll();
