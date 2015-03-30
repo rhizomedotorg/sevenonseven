@@ -5,6 +5,7 @@ var utils = require('../utils');
 var d3 = require('d3');
 var inherits = require('inherits');
 var EventEmitter = require('events').EventEmitter;
+var participants = require('../data/participants.json');
 
 
 var getAngle = function(i) {
@@ -73,8 +74,16 @@ function Viz($el) {
         ['i_camille', 'i_harlo'],
     ];
 
+    var participantNames = _.map(participants, function(participant) {
+        return [participant.artist.name, participant.technologist.name];
+    });
+
+    console.log(participantNames)
+
+
     var shuffledImages = [];
     var imageLinks = [];
+    var shuffledParticipants = [];
     _.each(_.range(14), function(i) {
         if(i % 2 === 0) {
             pairs.push([shuffled[i], shuffled[i+1]]);
@@ -82,10 +91,13 @@ function Viz($el) {
             partners[shuffled[i+1]] = shuffled[i];
             shuffledImages[shuffled[i]] = images[i / 2][0];
             shuffledImages[shuffled[i+1]] = images[i / 2][1];
+
             imageLinks[shuffled[i]] = i / 2;
             imageLinks[shuffled[i+1]] = i / 2;
         }
     });
+
+    console.log(shuffledParticipants)
 
     // console.log(partners);
 
@@ -129,18 +141,25 @@ function Viz($el) {
 
 
 
+    var $namesContainer = $('.desktop .names-container');
     var circleGroup = svg.selectAll('g.circle-group')
                         .data(_.range(14))
                         .enter()
                         .append('g')
                         .attr('class', 'circle-group')
-                        .on('mouseover', function(d, idx) {
+                        .on('mouseenter', function(d, idx) {
                             d3.selectAll('.dot')
                                 .filter(function(d, i) {
                                     return i === partners[idx] || i === idx;
                                 })
                                 .transition()
-                                .attr('r', dotSize * 3);  
+                                .attr('r', dotSize * 3)
+                                .each('end', function() {
+                                    $('.desktop .center-container').fadeOut('fast');
+                                    $namesContainer.find('.artist').text(participantNames[imageLinks[d]][0]);
+                                    $namesContainer.find('.technologist').text(participantNames[imageLinks[d]][1]);
+                                    $namesContainer.fadeIn('fast');
+                                });  
 
                             d3.selectAll('image')
                                 .filter(function(d, i) {
@@ -150,8 +169,9 @@ function Viz($el) {
                                 .transition()
                                 .duration(1000)
                                 .attr('opacity', 1); 
+
                         })
-                        .on('mouseout', function(d, idx) {
+                        .on('mouseleave', function(d, idx) {
 
                             d3.selectAll('.dot')
                                 .filter(function(d, i) {
@@ -165,9 +185,14 @@ function Viz($el) {
                                     return i === partners[idx] || i === idx;
                                 })
                                 .transition()
-                                .attr('opacity', 0);  
+                                .attr('opacity', 0).each('end', function() {
+                                    $('.desktop .center-container').fadeIn('fast');
+                                    $('.desktop .names-container').fadeOut('fast');        
+                                });
 
                             d3.selectAll('image').moveToBack();
+
+                            
 
                         })
                         .on('click', function(i) {
