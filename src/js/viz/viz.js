@@ -142,12 +142,18 @@ function Viz($el) {
 
 
     var $namesContainer = $('.desktop .names-container');
+
+    var nameFadeTimeout = null;
     var circleGroup = svg.selectAll('g.circle-group')
                         .data(_.range(14))
                         .enter()
                         .append('g')
                         .attr('class', 'circle-group')
                         .on('mouseenter', function(d, idx) {
+
+                            if(nameFadeTimeout) {
+                                clearTimeout(nameFadeTimeout);
+                            }
                             d3.selectAll('.dot')
                                 .filter(function(d, i) {
                                     return i === partners[idx] || i === idx;
@@ -159,7 +165,7 @@ function Viz($el) {
                                     $namesContainer.find('.artist').text(participantNames[imageLinks[d]][0]);
                                     $namesContainer.find('.technologist').text(participantNames[imageLinks[d]][1]);
                                     $namesContainer.fadeIn('fast');
-                                });  
+                                });
 
                             d3.selectAll('image')
                                 .filter(function(d, i) {
@@ -173,6 +179,11 @@ function Viz($el) {
                         })
                         .on('mouseleave', function(d, idx) {
 
+                            nameFadeTimeout = setTimeout(function() {
+                                $('.desktop .center-container').fadeIn('fast');
+                                $('.desktop .names-container').fadeOut('fast');     
+                            }, 1000);
+
                             d3.selectAll('.dot')
                                 .filter(function(d, i) {
                                     return i === partners[idx] || i === idx;
@@ -185,10 +196,7 @@ function Viz($el) {
                                     return i === partners[idx] || i === idx;
                                 })
                                 .transition()
-                                .attr('opacity', 0).each('end', function() {
-                                    $('.desktop .center-container').fadeIn('fast');
-                                    $('.desktop .names-container').fadeOut('fast');        
-                                });
+                                .attr('opacity', 0);
 
                             d3.selectAll('image').moveToBack();
 

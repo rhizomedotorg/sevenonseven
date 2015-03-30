@@ -44,7 +44,7 @@ function DesktopViewController($el) {
             menu = target;
         var $target = $(target);
 
-        var scrollTop = $target.offset().top + ((target === '#info' || target === '#tickets')  ? - headerHeight : 0);
+        var scrollTop = $target.offset().top + ((target === '#info' || target === '#tickets')  ? - 1.5 * headerHeight : 0);
         console.log(target);
         $('html, body').stop().animate({
             'scrollTop': scrollTop
@@ -87,7 +87,7 @@ function DesktopViewController($el) {
             var elOffset = refElement.offset().top;
             // console.log('scroll pos', scrollPos);
             // console.log('el pos', elOffset);
-            if (elOffset <= scrollPos + headerHeight && elOffset + refElement.height() > scrollPos) {
+            if (elOffset <= scrollPos + headerHeight*1.5 && elOffset + refElement.height() > scrollPos) {
                 $('.header .navigation a').removeClass('active');
                 curLink.addClass('active');
             }
