@@ -16,14 +16,10 @@ var AlumniView = AmpersandView.extend({
     },
 
     selectEvent: function (e) {
-        console.log('selectEvent');
         $(this.queryAll('.previous-year')).removeClass('selected');
         var $el = $(e.target).closest('.previous-year');
         $el.addClass('selected');
         var idx = $el.data('index');
-
-        console.log(idx);
-        console.log(alumni[idx]);
 
         var self = this;
         this.$container.fadeTo(500, 0, function() {

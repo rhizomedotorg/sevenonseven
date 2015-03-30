@@ -38,8 +38,6 @@ var ParticipantsView = AmpersandView.extend({
         var $el = $(e.target).closest('.mini-participant');
         var idx = $el.data('participant-id');
 
-        console.log('selectParticipant')
-
         this.setParticipant(idx);
 
     },
@@ -48,7 +46,6 @@ var ParticipantsView = AmpersandView.extend({
         if(idx === this.currentIndex) {
             return;
         }
-        console.log('setParticipant');
         var self = this;
         this.$container.find('.image-container').addClass('outro');
 
@@ -69,7 +66,6 @@ var ParticipantsView = AmpersandView.extend({
         $removeEl.find('.participant-names').remove();
         $removeEl.animate({width: 0}, function() {
             $removeEl.remove();
-            console.log('found one, slid out');
             setTimeout(function() {
                 $('.mini-participant-container').append(smallParticipant({
                     participant: participants[self.currentIndex],
