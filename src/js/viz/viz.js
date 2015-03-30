@@ -149,34 +149,6 @@ function Viz($el) {
                         .enter()
                         .append('g')
                         .attr('class', 'circle-group')
-                        .on('mouseenter', function(d, idx) {
-
-                            if(nameFadeTimeout) {
-                                clearTimeout(nameFadeTimeout);
-                            }
-                            d3.selectAll('.dot')
-                                .filter(function(d, i) {
-                                    return i === partners[idx] || i === idx;
-                                })
-                                .transition()
-                                .attr('r', dotSize * 3)
-                                .each('end', function() {
-                                    $('.desktop .center-container').fadeOut('fast');
-                                    $namesContainer.find('.artist').text(participantNames[imageLinks[d]][0]);
-                                    $namesContainer.find('.technologist').text(participantNames[imageLinks[d]][1]);
-                                    $namesContainer.fadeIn('fast');
-                                });
-
-                            d3.selectAll('image')
-                                .filter(function(d, i) {
-                                    return i === partners[idx] || i === idx;
-                                })
-                                .moveToFront()
-                                .transition()
-                                .duration(1000)
-                                .attr('opacity', 1); 
-
-                        })
                         .on('mouseleave', function(d, idx) {
 
                             nameFadeTimeout = setTimeout(function() {
@@ -252,6 +224,36 @@ function Viz($el) {
 
         setTimeout(function() {
             $('.content-container').fadeIn('slow');
+            $('html, body').css({'overflow-y': 'auto'});
+            circleGroup
+                .on('mouseenter', function(d, idx) {
+
+                    if(nameFadeTimeout) {
+                        clearTimeout(nameFadeTimeout);
+                    }
+                    d3.selectAll('.dot')
+                        .filter(function(d, i) {
+                            return i === partners[idx] || i === idx;
+                        })
+                        .transition()
+                        .attr('r', dotSize * 3)
+                        .each('end', function() {
+                            $('.desktop .center-container').fadeOut('fast');
+                            $namesContainer.find('.artist').text(participantNames[imageLinks[d]][0]);
+                            $namesContainer.find('.technologist').text(participantNames[imageLinks[d]][1]);
+                            $namesContainer.fadeIn('fast');
+                        });
+
+                    d3.selectAll('image')
+                        .filter(function(d, i) {
+                            return i === partners[idx] || i === idx;
+                        })
+                        .moveToFront()
+                        .transition()
+                        .duration(1000)
+                        .attr('opacity', 1); 
+
+                })
         }, 200 + firstDuration + (14 * firstTransitionSpeed) + (6 * secondTransitionSpeed));
 
 
