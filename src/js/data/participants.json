@@ -60,7 +60,7 @@
 
         "technologist": {
             "name": "thricedotted",
-            "occupation": "",
+            "occupation": "&nbsp;",
             "description": "thricedotted is a language hacker who commands a legion of over thirty bots on Twitter, including @portmanteau_bot and @wikisext. They also meta-authored the automatically generated novel The Seeker for #NaNoGenMo 2014. They are a PhD candidate at the University of Washington working in natural language processing.",
             "photo": "./images/participants/technologist/p_thricedotted.png"
         },

@@ -10,7 +10,7 @@
         .row
             .participant-details.left.centered
                 .occupation
-                    | #{participant.artist.occupation}
+                    | !{participant.artist.occupation}
                 .details
                     | #{participant.artist.description}
 
@@ -24,17 +24,18 @@
             img(src="#{participant.technologist.photo}")
 
     .column-4.mobile-column-1
-        .participant-details.right
-            .name.large
-                for word in participant.technologist.name.split(' ')
-                    | #{word}
-                    br
-                //- | #{participant.technologist.name}
+        .row
+            .participant-details.right
+                .name.large
+                    for word in participant.technologist.name.split(' ')
+                        | #{word}
+                        br
+                    //- | #{participant.technologist.name}
 
         .row
             .participant-details.right
                 .occupation
-                    | #{participant.technologist.occupation}
+                    | !{participant.technologist.occupation}
                 .details
                     | #{participant.technologist.description}
 
