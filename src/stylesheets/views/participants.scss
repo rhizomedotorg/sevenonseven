@@ -63,9 +63,15 @@
         text-align: center;
         cursor: pointer;
         font-size: 14px;
+        text-transform: uppercase;
 
         &:hover {
-            color: lighten($purple, 15%);
+            color: lighten($black, 5%);
+
+            img {
+                opacity: 0.6;
+            }
+
         }
 
         img {
