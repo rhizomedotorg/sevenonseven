@@ -99,7 +99,7 @@
                 }
             }
 
-            &:hover {
+            &:hover:not(.sold-out) {
                 border-color: $purple;
                 background-color: $purple;
                 a {
@@ -135,7 +135,7 @@
                     }
                 }
 
-                &:hover {
+                &:hover:not(.sold-out)  {
                     border-color: white;
                     background-color: white;
                     a {
