@@ -226,7 +226,10 @@ function Viz($el) {
                         })
                         .transition()
                         .attr('r', dotSize * 3)
-                        .each('end', function() {
+                        .each('end', function(d, i) {
+                            if(i) {
+                                return;
+                            }
                             $('.desktop .center-container').fadeOut('fast');
                             $namesContainer.find('.artist').text(participantNames[imageLinks[d]][0]);
                             $namesContainer.find('.technologist').text(participantNames[imageLinks[d]][1]);

@@ -76,9 +76,18 @@
                 // transform: scale(0.5);
                 /* IE6–IE9 */
                 // filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9999619230641713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=0.9999619230641713,SizingMethod='auto expand');
-                margin-bottom: 50px;
+
+                display: block;
+                margin: 0 auto;
 
                 max-width: 75%;
+
+
+                &:last-of-type {
+                    margin-bottom: 50px;
+                    max-width: 70%;
+                }
+
                 &.tight {
                     max-width: 50%;
 
