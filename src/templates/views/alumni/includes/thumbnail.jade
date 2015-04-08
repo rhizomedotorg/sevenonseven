@@ -5,17 +5,18 @@
 
     .description
         if team.keynote
-
-            | #{team.title}
-            br
             | #{team.keynote} Keynote
 
         else
-            span.artist
-                | #{team.artist} 
-            | & 
-            span.technologist
-                | #{team.technologist} 
+            if team.artist !== ''
+                span.artist
+                    | #{team.artist} 
+                | & 
+                span.technologist
+                    | #{team.technologist} 
+            else 
+                span.technologist
+                    | #{team.technologist} 
 
             //- | • 
             //- | #{team.title}

@@ -1,28 +1,57 @@
 
+.video-container
+    .content-holder(style="max-width:#{videoWidth}px;")
+        .row.centered.close-video
+            | Close Video
 
 
-.video-overlay-container
-
-    .video-container
-        .content-holder
-            .row.centered
-                | Close Video
+        if current
+            .video
+                <iframe src="https://player.vimeo.com/video/#{current.video}?color=5f3eff&title=0&byline=0&portrait=0" width="#{videoWidth}" height="#{videoHeight}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
-            if current
-                .row
-                    .video
-                        <iframe src="#{current.video}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        .row.no-padding
+            .column-4.right
+                if previous
+                    .previous(data-index="#{previousIndex}")
+                        img(src="./images/left-chevron.png").left
 
+                        .inline
+                            if previous.keynote
+                                | #{previous.keynote}
+                            else
+                                if previous.artist
+                                    | #{previous.artist} and #{previous.technologist}
+                                else
+                                    | #{previous.technologist}
 
-            .row
-                .column-4.right
-                    if previous
-                        | Prev #{previous.artist} and #{previous.technologist}
+            .column-4
+                .center-text
+                    if current 
+                        if current.keynote
+                            | #{title} Keynote
+                            br
+                            | #{current.keynote}
+                        else
+                            if current.artist
+                                | #{current.artist}
+                                br
+                                small
+                                    | and
+                                br
+                                | #{current.technologist}
+                            else
+                                | #{current.technologist}
 
-                .column-4
-                    | Seven on Seven 2014
-
-                .column-4.left
-                    if next
-                        | Next #{next.artist} and #{next.technologist}
+            .column-4.left
+                if next
+                    .next(data-index="#{nextIndex}")
+                        .inline
+                            if next.keynote
+                                | #{next.keynote}
+                            else
+                                if next.artist
+                                    | #{next.artist} and #{next.technologist}
+                                else
+                                    | #{next.technologist}
+                        img(src="./images/right-chevron.png").right

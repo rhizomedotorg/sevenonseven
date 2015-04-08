@@ -1,4 +1,4 @@
-
+'use strict';
 
 var AmpersandView = require('ampersand-view');
 var alumni = require('../data/alumni');
@@ -11,10 +11,12 @@ var AlumniView = AmpersandView.extend({
     events: {
         "click .previous-year": "selectEvent",
         "click .alumni-thumbnail": "showVideo",
+        "click .featured-thumbnail": "showVideo",
         // "click .video-overlay-container": "hideVideo"
     },
 
     initialize: function() {
+        this.currentEvent = alumni[0];
         this.$container = $(this.query('.year-container'));
     },
 
@@ -26,34 +28,54 @@ var AlumniView = AmpersandView.extend({
         this.currentEvent = alumni[idx];
 
         var self = this;
-        this.$container.fadeTo(500, 0, function() {
+        // this.$container.fadeTo(500, 0, function() {
             self.$container.html(template({
                 sxs: alumni[idx],
                 utils: utils
-            })).fadeTo(500, 1);
-        });
+            }));
+        // });
         
     },
 
     showVideo: function(e) {
-        console.log('show video');
-        console.log($('.video-overlay-container'));
+        var participantIndex = $(e.target).closest('.alumni-thumbnail, .featured-thumbnail').data('index');
+        this.showVideoWithIndex(participantIndex);
+    },
 
-        var participantIndex = $(e.target).data('index');
+    showVideoWithIndex: function(i) {
 
-        var prev = (participantIndex > 0) ? this.currentEvent[participantIndex-1] : null;
-        var next = (participantIndex < this.currentEvent.length - 1) ? this.currentEvent[participantIndex+1] : null;
-        var current = this.currentEvent[participantIndex];
+        var prev = (i > 0) ? this.currentEvent.participants[i-1] : null;
+        var next = (i < this.currentEvent.participants.length - 1) ? this.currentEvent.participants[i+1] : null;
+        var current = this.currentEvent.participants[i];
+
+        console.log(prev, next, current);
+
+        var videoWidth = $(window).width() * 0.7;
+        var videoHeight = videoWidth * 9 / 16;
+
+        $('body, html').css({'overflow-y': 'hidden'});
 
         $('.video-overlay-container').html(overlayTemplate({
             previous: prev,
+            previousIndex: i - 1,
             current: current,
-            next: next
+            next: next,
+            title: this.currentEvent.title,
+            nextIndex: i + 1,
+            videoWidth: videoWidth,
+            videoHeight: videoHeight
         })).show();
 
-        $('.video-overlay-container').off().click(function() {
-            $(this).hide();
+        var self = this;
+
+        $('.close-video').off().click(function() {
+            $(this).closest('.video-overlay-container').html('').fadeOut();
+            $('body, html').css({'overflow-y': 'auto'});
         })
+
+        $('.video-overlay-container .previous, .video-overlay-container .next').off().click(function() {
+            self.showVideoWithIndex($(this).data('index'));
+        });
     },
 
     hideVideo: function(e) {

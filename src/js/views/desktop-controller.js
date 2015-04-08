@@ -100,9 +100,9 @@ function DesktopViewController($el) {
     var participantView = new ParticipantView({
         el: this.$el.find('#participants')[0]
     });
-    // new AlumniView({
-    //     el: this.$el.find('#alumni')[0]
-    // });
+    new AlumniView({
+        el: this.$el.find('#alumni')[0]
+    });
     viz.on('select', function(i) {
         $('.header a[href=#participants]').trigger('click');
         participantView.setParticipant(i);

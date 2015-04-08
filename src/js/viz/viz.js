@@ -213,7 +213,6 @@ function Viz($el) {
 
         setTimeout(function() {
             $('.content-container').fadeIn('slow');
-            $('html, body').css({'overflow-y': 'auto'});
             circleGroup
                 .on('mouseenter', function(d, idx) {
 

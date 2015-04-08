@@ -1,5 +1,26 @@
 
 .video-overlay-container {
+
+    .no-padding {
+        padding-left: 0;
+        padding-right: 0;
+        img {
+
+            vertical-align: top;
+            &.left {
+                padding-right: 10px;
+            }
+
+            &.right {
+                padding-left: 10px;
+            }
+        }
+    }
+
+    .center-text {
+        @include vertical-align();
+        padding-top: 33px;
+    }
     display: none;
     z-index: 1000000;
     position: fixed;
@@ -7,22 +28,45 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: $purple;
     height: 100%;
 
+    .inline {
+        display: inline-block;
+        width: 90%;
+        // position: relative;
+        // top: 5px;
+        // @include vertical-align();
+    }
+
     .video-container {
-        @include vertical-align();
-        background-color: $purple;
 
         text-transform: uppercase;
-
-        padding-top: 33px;
-        padding-bottom: 33px;
+        // padding-top: 33px;
+        // padding-bottom: 33px;
         text-align: center;
+        // @include vertical-align();
+
 
         .content-holder {
-            max-width: 600px;
+            // max-width: 600px;
             margin: 0 auto;
+        }
+
+        .video {
+            // padding-top: 15px;
+        }
+
+        .close-video {
+            cursor: pointer;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+
+        .previous, .next {
+            cursor: pointer;
+            font-size: 12px;
+            @include vertical-align();
         }
     }
 }

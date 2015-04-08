@@ -7,7 +7,7 @@
                 "artist": "Kevin McCoy",
                 "title": "Monograph",
                 "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
+                "video": "96131398",
                 "thumbnail": "./images/alumni/2014/2014_vid_8.jpg",
                 "press": [
                     {
@@ -18,50 +18,50 @@
             },
             {
                 "keynote": "Kate Crawford",
-                "title": "Seven on Seven 2014",
-                "video": "https://vimeo.com/album/2882406/video/97169141",
+                "title": "",
+                "video": "97169141",
                 "thumbnail": "./images/alumni/2014/2014_vid_thumb_1.jpg"
             },
             {
                 "technologist": "Kate Ray",
                 "artist": "Holly Herndon",
                 "title": "spyke",
-                "video": "https://vimeo.com/album/2882406/video/96121408",
+                "video": "96121408",
                 "thumbnail": "./images/alumni/2014/2014_vid_thumb_2.jpg"
             },
             {
                 "technologist": "Aza Raskin",
                 "artist": "Kari Altmann",
                 "title": "",
-                "video": "https://vimeo.com/album/2882406/video/95908873",
+                "video": "95908873",
                 "thumbnail": "./images/alumni/2014/2014_vid_thumb_3.jpg"
             },
             {
                 "technologist": "Avi Flombaum",
                 "artist": "Hannah Sawtell",
                 "title": "",
-                "video": "https://vimeo.com/album/2882406/video/95891095",
+                "video": "95891095",
                 "thumbnail": "./images/alumni/2014/2014_vid_thumb_4.jpg"
             },
             {
                 "technologist": "Jen Fong-Adwent",
                 "artist": "Ian Cheng",
                 "title": "",
-                "video": "https://vimeo.com/album/2882406/video/96111373",
+                "video": "96111373",
                 "thumbnail": "./images/alumni/2014/2014_vid_thumb_5.jpg"
             },
             {
                 "technologist": "Nick Bilton",
                 "artist": "Simon Denny",
                 "title": "",
-                "video": "https://vimeo.com/album/2882406/video/96616606",
+                "video": "96616606",
                 "thumbnail": "./images/alumni/2014/2014_vid_thumb_6.jpg"
             },
             {
                 "technologist": "David Kravitz",
                 "artist": "Frances Stark",
                 "title": "",
-                "video": "https://vimeo.com/album/2882406/video/96086719",
+                "video": "96086719",
                 "thumbnail": "./images/alumni/2014/2014_vid_thumb_7.jpg"
             }
         ]
@@ -72,100 +72,52 @@
             {
                 "technologist": "Harper Reed",
                 "artist": "Rafael Lozano-Hemmer",
-                "title": "",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
+                "title": "Friend Fracker",
+                "description": "Even if you've rarely interacted with someone online, unfriending them can be complicated. Will they notice? If they do, will they be offended? For the 2013 edition of Seven on Seven, artist Rafael Lozanzo-Hemmer teamed with Harper Reed, Chief Technology Officer for the 2012 Obama campaign, to create Friend Fracker. The Facebook app randomly chose up to 10 friends from a user's profile, and deleted them. The user would never know who was unfriended, and the friend would never be notified. The website was created take the emotional strain away from uncluttering a user's digital world, and created in response to the team's sense of \"data overload.\" While it has since been banned by Facebook, it piqued the interest of news media: in a feature on the project, Fox News dubbed the its creators \"techie people with weird ideas.\"",
+                "video": "65158224",
                 "thumbnail": "./images/alumni/2013/2013_vid_8.jpg"
             },
             {
                 "keynote": "Evgeny Morozov",
-                "title": "Seven on Seven 2013",
-                "video": "https://vimeo.com/album/2371405/video/64903468",
+                "title": "",
+                "video": "64903468",
                 "thumbnail": "./images/alumni/2013/2013_vid_thumb_1.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2013/2013_vid_thumb_2.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Alex Chung",
+                "artist": "Paul Pfeiffer",
+                "video": "65101249",
+                "thumbnail": "./images/alumni/2013/2013_vid_thumb_2.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2013/2013_vid_thumb_3.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Dalton Caldwell",
+                "artist": "Fatima Al Qadiri",
+                "video": "64960804",
+                "thumbnail": "./images/alumni/2013/2013_vid_thumb_3.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2013/2013_vid_thumb_4.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Tara Tiger Brown",
+                "artist": "Cameron Martin",
+                "video": "65141660",
+                "thumbnail": "./images/alumni/2013/2013_vid_thumb_4.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2013/2013_vid_thumb_5.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Julie Urhman",
+                "artist": "Jeremy Bailey",
+                "video": "65172802",
+                "thumbnail": "./images/alumni/2013/2013_vid_thumb_5.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2013/2013_vid_thumb_6.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Dennis Crowley",
+                "artist": "Jill Magid",
+                "video": "64906582",
+                "thumbnail": "./images/alumni/2013/2013_vid_thumb_7.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2013/2013_vid_thumb_7.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Billy Chasen",
+                "artist": "Matthew Ritchie",
+                "video": "64914097",
+                "thumbnail": "./images/alumni/2013/2013_vid_thumb_6.jpg"
             }
         ]
     },
@@ -174,114 +126,53 @@
         "shortTitle": "2013<br/><small>LDN</small>",
         "participants": [
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2013/lnd/2013_lnd_vid_8.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Jonas Lund",
+                "artist": "Michelle You",
+                "title": "Eeeeeeemail",
+                "description": "Who is the authentic self, online? Artist Jonas Lund and Songkick co-founder Michelle You began their collaboration with a mutual interest in this question. They came up with Eeeeeemail – a Gmail application that randomly delivers a message from a user's sent box, anonymized, to another user. In their idea's development process, the pair analyzed specific data about their own internet-based selves, and discussed the problem of \"Fear of Missing Out\" (FOMO), an anxiety stemming from the struggle to keep up with social networking. In their resulting project, messages that the service sends out can be banal, or intimately revealing. What is important to Lund and You is that users can't edit what these emails say about who they are, before they're sent.",
+                "video": "80310434",
+                "thumbnail": "./images/alumni/2013/lnd/2013_lnd_vid_8.jpg"
             },
             {
-                "keynote": "Kate Crawford",
-                "title": "Seven on Seven 2014",
-                "video": "",
-                "thumbnail": "./images/alumni/2013/lnd/2013_lnd_vid_thumb_1.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "keynote": "Jamie King",
+                "video": "80313940",
+                "thumbnail": "./images/alumni/2013/lnd/2013_lnd_vid_thumb_1.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2013/lnd/2013_lnd_vid_thumb_2.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Smári McCarthy",
+                "artist": "Aleksandra Domanović",
+                "video": "80313939",
+                "thumbnail": "./images/alumni/2013/lnd/2013_lnd_vid_thumb_2.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2013/lnd/2013_lnd_vid_thumb_3.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Alberto Nardelli",
+                "artist": "Graham Harwood",
+                "video": "80313942",
+                "thumbnail": "./images/alumni/2013/lnd/2013_lnd_vid_thumb_4.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2013/lnd/2013_lnd_vid_thumb_4.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Dan Williams",
+                "artist": "Mark Leckey",
+                "video": "80478923",
+                "thumbnail": "./images/alumni/2013/lnd/2013_lnd_vid_thumb_5.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2013/lnd/2013_lnd_vid_thumb_5.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Naveen Selvadurai",
+                "artist": "Susan Philipsz",
+                "video": "80310433",
+                "thumbnail": "./images/alumni/2013/lnd/2013_lnd_vid_thumb_6.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2013/lnd/2013_lnd_vid_thumb_6.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Alice Bartlett",
+                "artist": "Cécile B. Evans",
+                "video": "80313941",
+                "thumbnail": "./images/alumni/2013/lnd/2013_lnd_vid_thumb_3.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2013/lnd/2013_lnd_vid_thumb_7.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Ryder Ripps",
+                "artist": "",
+                "video": "80310432",
+                "thumbnail": "./images/alumni/2013/lnd/2013_lnd_vid_thumb_7.jpg"
             }
         ]
     },
@@ -289,114 +180,54 @@
         "title": "2012",
         "participants": [
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2012/2012_vid_8.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Aaron Swartz",
+                "artist": "Taryn Simon",
+                "title": "Image Atlas",
+                "description": "Image Atlas investigates cultural differences and similarities by indexing top image results for given search terms across local search engines throughout the world. Visitors can refine or expand their comparisons from the sixty countries currently available and sort by Gross Domestic Product (GDP) or alphabetical order. Through an incredibly simple interface, Image Atlas raises profound questions related to language, international culture, and systems of information. Image Atlas proposes a singular method of retrieving and comparing pictures, to demonstrate the variability of language and the persistence of difference in a world supposedly flattened by the forces of the global economy. The project was further developed and exhibited online in the New Museum's First Look program curated by Lauren Cornell. In January 2013, Simon updated the website to include a memorial to Swartz.",
+                "video": "40651117",
+                "thumbnail": "./images/alumni/2012/2012_vid_8.jpg"
             },
             {
-                "keynote": "Kate Crawford",
-                "title": "Seven on Seven 2014",
-                "video": "",
-                "thumbnail": "./images/alumni/2012/2012_vid_thumb_1.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "keynote": "Douglas Rushkoff",
+                "title": "",
+                "video": "40547069",
+                "thumbnail": "./images/alumni/2012/2012_vid_thumb_1.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2012/2012_vid_thumb_2.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Charles Foreman",
+                "artist": "Jon Rafman",
+                "video": "40553046",
+                "thumbnail": "./images/alumni/2012/2012_vid_thumb_7.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2012/2012_vid_thumb_3.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Blaine Cook",
+                "artist": "Naeem Mohaiemen",
+                "video": "40569027",
+                "thumbnail": "./images/alumni/2012/2012_vid_thumb_5.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2012/2012_vid_thumb_4.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Anthony Volodkin",
+                "artist": "Xavier Cha",
+                "video": "40635867",
+                "thumbnail": "./images/alumni/2012/2012_vid_thumb_2.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2012/2012_vid_thumb_5.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Michael Herf",
+                "artist": "LaToya Ruby Frazier",
+                "video": "40644579",
+                "thumbnail": "./images/alumni/2012/2012_vid_thumb_3.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2012/2012_vid_thumb_6.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Jeremy Ashkenas",
+                "artist": "Stephanie Syjuco",
+                "video": "40579984",
+                "thumbnail": "./images/alumni/2012/2012_vid_thumb_4.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2012/2012_vid_thumb_7.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Khoi Vinh",
+                "artist": "Aram Bartholl",
+                "video": "40556515",
+                "thumbnail": "./images/alumni/2012/2012_vid_thumb_6.jpg"
             }
         ]
     },
@@ -404,114 +235,46 @@
         "title": "2011",
         "participants": [
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2011/2011_vid_8.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Ben Cerveny",
+                "artist": "Liz Magic Laser",
+                "video": "24479194",
+                "thumbnail": "./images/alumni/2011/2011_vid_thumb_2.jpg"
             },
             {
-                "keynote": "Kate Crawford",
-                "title": "Seven on Seven 2014",
-                "video": "",
-                "thumbnail": "./images/alumni/2011/2011_vid_thumb_1.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Chris Poole",
+                "artist": "Ricardo Cabello",
+                "video": "24480598",
+                "thumbnail": "./images/alumni/2011/2011_vid_thumb_4.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2011/2011_vid_thumb_2.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Bre Pettis",
+                "artist": "Zach Lieberman",
+                "video": "24479450",
+                "thumbnail": "./images/alumni/2011/2011_vid_thumb_3.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2011/2011_vid_thumb_3.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Jeri Ellsworth",
+                "artist": "Rashaad Newsome",
+                "video": "24480826",
+                "thumbnail": "./images/alumni/2011/2011_vid_thumb_6.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2011/2011_vid_thumb_4.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Erica Sadun",
+                "artist": "Camille Utterback",
+                "video": "24480752",
+                "thumbnail": "./images/alumni/2011/2011_vid_thumb_5.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2011/2011_vid_thumb_5.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Kellen Elliot McCrae",
+                "artist": "Emily Roysdon",
+                "video": "24479490",
+                "thumbnail": "./images/alumni/2011/2011_vid_thumb_7.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2011/2011_vid_thumb_6.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
-            },
-            {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2011/2011_vid_thumb_7.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Andy Baio",
+                "artist": "Michael Bell-Smith",
+                "video": "24479378",
+                "thumbnail": "./images/alumni/2011/2011_vid_8.jpg"
             }
         ]
     },
@@ -519,114 +282,48 @@
         "title": "2010",
         "participants": [
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2010/2010_vid_8.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "David Karp",
+                "artist": "Ryan Trecartin",
+                "title": "Riverthe.net",
+                "description": "Riverthe.net (formerly Project Ten) allows users to anonymously upload 10-second clips, which can then be assigned three tags. A visitor to the site is then confronted with a full-screen video, and an interface that only allows them to click through the tags. With each click, a narrative is formed that lasts as long as all the videos associated with that tag, or until the users clicks on to a new one. The inspiration was to create a browsing experience that mimics the jump from user to user found in ChatRoulette. In an interview on ArtFCity, referencing the minimal interface, Trecartin explains that, \"one of the things we kept talking about was wanting to see the interface move inside the content, rather than surrounding the content.\" After further development, it was exhibited in the New Museums's exhibition Free, curated by Lauren Cornell.",
+                "video": "12239333",
+                "thumbnail": "./images/alumni/2010/2010_vid_9.jpg"
             },
             {
-                "keynote": "Kate Crawford",
-                "title": "Seven on Seven 2014",
-                "video": "",
-                "thumbnail": "./images/alumni/2010/2010_vid_thumb_1.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Hilary Mason",
+                "artist": "Marc Andre Robinson",
+                "video": "12238483",
+                "thumbnail": "./images/alumni/2010/2010_vid_thumb_3.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2010/2010_vid_thumb_2.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Ayah Bdeir",
+                "artist": "Tauba Auerbach",
+                "video": "12238805",
+                "thumbnail": "./images/alumni/2010/2010_vid_thumb_5.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2010/2010_vid_thumb_3.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Joshua Schachter",
+                "artist": "Monica Narula",
+                "video": "12239116",
+                "thumbnail": "./images/alumni/2010/2010_vid_thumb_7.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2010/2010_vid_thumb_4.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Jeff Hammerbacher",
+                "artist": "Aaron Koblin",
+                "video": "12238993",
+                "thumbnail": "./images/alumni/2010/2010_vid_thumb_6.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2010/2010_vid_thumb_5.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Andrew Cortina",
+                "artist": "Kristen Lucas",
+                "video": "12238636",
+                "thumbnail": "./images/alumni/2010/2010_vid_thumb_4.jpg"
             },
             {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2010/2010_vid_thumb_6.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
-            },
-            {
-                "technologist": "Anil Dash",
-                "artist": "Kevin McCoy",
-                "title": "Monograph",
-                "description": "Conceived at Seven on Seven 2014, and now a thriving start-up in residence at the New Museum’s NEW INC incubator, Monegraph works to solve the issues that surround ownership and monetary support of digital artworks. Anil Dash (Co-founder, ThinkUP) and artist Kevin McCoy created an application that attributes a “digital deed” to a piece of digital art, using a blockchain in a Bitcoin-like system.  This deed authenticates the artworks as original, which can then be sold to a collector, while not limiting its circulation online. Monegraph hopes to influence the way digital artists are able to monetize their work, ultimately making their artistic practices more sustainable.",
-                "video": "",
-                "thumbnail": "./images/alumni/2010/2010_vid_thumb_7.jpg",
-                "press": [
-                    {
-                        "title": "Techcrunch",
-                        "url": "http://techcrunch.com/2014/05/09/monegraph/"
-                    }
-                ]
+                "technologist": "Matt Mullenweg",
+                "artist": "Evan Roth",
+                "video": "12238385",
+                "thumbnail": "./images/alumni/2010/2010_vid_thumb_2.jpg"
             }
         ]
     }
