@@ -44,7 +44,7 @@ function DesktopViewController($el) {
             menu = target;
         var $target = $(target);
 
-        var scrollTop = $target.offset().top + ((target === '#info' || target === '#tickets')  ? - 1.5 * headerHeight : 0);
+        var scrollTop = $target.offset().top + ((target === '#info' || target === '#tickets' || target === '#archive')  ? - 1.5 * headerHeight : 0);
         console.log(target);
         $('html, body').stop().animate({
             'scrollTop': scrollTop
@@ -101,7 +101,7 @@ function DesktopViewController($el) {
         el: this.$el.find('#participants')[0]
     });
     new AlumniView({
-        el: this.$el.find('#alumni')[0]
+        el: this.$el.find('#archive')[0]
     });
     viz.on('select', function(i) {
         $('.header a[href=#participants]').trigger('click');

@@ -41,7 +41,7 @@
             margin-bottom: 50px;
 
             img {
-                max-width: 236px;
+                max-width: 200px;
             }
         }
 
@@ -80,12 +80,12 @@
                 display: block;
                 margin: 0 auto;
 
-                max-width: 75%;
+                // max-width: 75%;
 
 
                 &:last-of-type {
                     margin-bottom: 50px;
-                    max-width: 70%;
+                    max-width: 100%;
                 }
 
                 &.tight {
@@ -119,6 +119,19 @@
         }
         padding-bottom: 150px;
 
+        a {
+            text-transform: uppercase;
+            color: white;
+            text-decoration: none;
+            border-bottom: solid 1px white;
+
+            &:visited {
+                text-transform: uppercase;
+                color: white;
+                text-decoration: none;
+                border-bottom: solid 1px white;
+            }
+        }
         .development {
             padding-top: 40px;
         }

@@ -27,14 +27,15 @@
         ul {
             li {
                 display: inline-block;
-                margin-left: 20px;
+                margin-left: 15px;
 
                 a {
                     text-decoration: none;
                     text-align: center;
                     padding-left: 2px;
                     color: black;
-                    font-weight: 300;
+                    font-weight: 500;
+                    font-size: 15px;
                     border-bottom: solid 0 rgba(255, 255, 255, 0);
                     -webkit-transition: all 0.3s;
                             transition: all 0.3s;

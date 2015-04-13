@@ -138,10 +138,11 @@
             line-height: 30px;
             text-transform: uppercase;
 
-            text-align: right;
+            // text-align: right;
             position: absolute;
             top: calc(50% + 85px);
             right: calc(50% - 213px);
+            left: 50%;
 
             .seven-on-seven-title {
                 font-weight: 500;
