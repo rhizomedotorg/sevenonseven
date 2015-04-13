@@ -3091,13 +3091,14 @@ h3 {
     text-transform: uppercase; }
     .header .navigation ul li {
       display: inline-block;
-      margin-left: 20px; }
+      margin-left: 15px; }
       .header .navigation ul li a {
         text-decoration: none;
         text-align: center;
         padding-left: 2px;
         color: black;
-        font-weight: 300;
+        font-weight: 500;
+        font-size: 15px;
         border-bottom: solid 0 rgba(255, 255, 255, 0);
         -webkit-transition: all 0.3s;
         transition: all 0.3s; }
@@ -3188,10 +3189,10 @@ h3 {
     font-size: 22px;
     line-height: 30px;
     text-transform: uppercase;
-    text-align: right;
     position: absolute;
     top: calc(50% + 85px);
-    right: calc(50% - 213px); }
+    right: calc(50% - 213px);
+    left: 50%; }
     .hero .content-container .title-container .seven-on-seven-title {
       font-weight: 500; }
   .hero .content-container .names-container {
@@ -3248,6 +3249,9 @@ svg .circle-group {
   position: fixed; }
 
 .participants .image-container {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
   overflow: hidden; }
   .participants .image-container img {
     display: inline-block;
@@ -3552,7 +3556,7 @@ svg .circle-group {
     .footer .row.hosted-by {
       margin-bottom: 50px; }
       .footer .row.hosted-by img {
-        max-width: 236px; }
+        max-width: 200px; }
     .footer .row.partners {
       text-align: center; }
       .footer .row.partners.top {
@@ -3564,11 +3568,10 @@ svg .circle-group {
       .footer .row.partners img {
         /* IE6–IE9 */
         display: block;
-        margin: 0 auto;
-        max-width: 75%; }
+        margin: 0 auto; }
         .footer .row.partners img:last-of-type {
           margin-bottom: 50px;
-          max-width: 70%; }
+          max-width: 100%; }
         .footer .row.partners img.tight {
           max-width: 50%; }
           .footer .row.partners img.tight.very {
@@ -3581,6 +3584,16 @@ svg .circle-group {
       text-decoration: none;
       border-bottom: solid 1px white; }
       .footer .credits .social a:visited {
+        text-transform: uppercase;
+        color: white;
+        text-decoration: none;
+        border-bottom: solid 1px white; }
+    .footer .credits a {
+      text-transform: uppercase;
+      color: white;
+      text-decoration: none;
+      border-bottom: solid 1px white; }
+      .footer .credits a:visited {
         text-transform: uppercase;
         color: white;
         text-decoration: none;
