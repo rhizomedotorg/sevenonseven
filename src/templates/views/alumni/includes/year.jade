@@ -1,45 +1,27 @@
-if sxs.title !== '2011'
-    .row
-        .column-12.centered
-            .lead-in
-                | #{sxs.title} Feature Project
+
+.row
+    .column-12.centered
+        .lead-in
+            | #{sxs.title} Feature Project
 
 
-    - var team = sxs.participants[0]
-    include ./detail
+- var team = sxs.participants[0]
+include ./detail
 
 .row
     .column-12.centered.lead-in.more
-        if sxs.title !== '2011'
-            | More #{sxs.title} Participants
-        else 
-            | #{sxs.title} Participants 
-
+        | More #{sxs.title} Participants
 
 - var idx = 0
-if sxs.title !== '2011'
-    for teamGroup in utils.groupArrayByN(sxs.participants.slice(1), 3)
-        .row
-            .column-10.center-column
-                for team in teamGroup
-                    - idx += 1
-                    if teamGroup.length === 1
-                        .column-4.center-column
-                            include ./thumbnail
-                    else
-                        .column-4
-                            include ./thumbnail
-
-else
-    for teamGroup in utils.groupArrayByN(sxs.participants, 3)
-        .row
-            .column-10.center-column
-                for team in teamGroup
-                    - idx += 1
-                    if teamGroup.length === 1
-                        .column-4.center-column
-                            include ./thumbnail
-                    else
-                        .column-4
-                            include ./thumbnail
+for teamGroup in utils.groupArrayByN(sxs.participants.slice(1), 3)
+    .row
+        .column-10.center-column
+            for team in teamGroup
+                - idx += 1
+                if teamGroup.length === 1
+                    .column-4.center-column
+                        include ./thumbnail
+                else
+                    .column-4
+                        include ./thumbnail
 

@@ -235,6 +235,13 @@
         "title": "2011",
         "participants": [
             {
+                "technologist": "Andy Baio",
+                "artist": "Michael Bell-Smith",
+                "description": "Michael Bell-Smith and Andy Baio, then Project Director at Expert Labs, explored the remix-driven format of the fan 'supercut' - videos that splice together a single, uniting element from a series in order to highlight tropes and cliches, such as \"every Wooden Allen stammer from every Woody Allen movie,\" or \"every time an Oscar winner mutters 'Um..' in an acceptance speech\". As an act of fandom for the supercut itself, which was a format still in its infancy then, Baio and Bell-Smith created Super Supercut, an algorithmically-generated supercut made up of other supercuts.",
+                "video": "24479378",
+                "thumbnail": "./images/alumni/2011/2011_vid_8.jpg"
+            },
+            {
                 "technologist": "Ben Cerveny",
                 "artist": "Liz Magic Laser",
                 "video": "24479194",
@@ -269,12 +276,6 @@
                 "artist": "Emily Roysdon",
                 "video": "24479490",
                 "thumbnail": "./images/alumni/2011/2011_vid_thumb_7.jpg"
-            },
-            {
-                "technologist": "Andy Baio",
-                "artist": "Michael Bell-Smith",
-                "video": "24479378",
-                "thumbnail": "./images/alumni/2011/2011_vid_8.jpg"
             }
         ]
     },

@@ -13,6 +13,11 @@
                     | !{participant.artist.occupation}
                 .details
                     | #{participant.artist.description}
+                    
+                    if participant.artist.twitter
+                        .social
+                            a(href="https://twitter.com/#{participant.artist.twitter}")
+                                | @#{participant.artist.twitter}
 
 
     .column-4.centered.mobile-column-1
@@ -38,6 +43,12 @@
                     | !{participant.technologist.occupation}
                 .details
                     | #{participant.technologist.description}
+                
+                    if participant.technologist.twitter
+                        .social
+                            a(href="https://twitter.com/#{participant.technologist.twitter}")
+                                | @#{participant.technologist.twitter}
+
 
 //- .row.close
     

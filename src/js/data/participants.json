@@ -4,14 +4,16 @@
             "name": "Ai Weiwei",
             "occupation": "Artist",
             "description": "Ai Weiwei is an artist and activist whose work encompasses sculpture, installation, photography, film, architecture, curation, and social criticism. His art has been featured in major solo exhibitions at venues including the Mori Art Museum, Tate Modern, and the New Museum. He was the recipient of the Václav Havel Prize for Creative Dissent from the Human Rights Foundation in 2012.",
-            "photo": "./images/participants/artist/p_aiweiwei.png"
+            "photo": "./images/participants/artist/p_aiweiwei.png",
+            "twitter": "aiweiwei"
         },
 
         "technologist": {
             "name": "Jacob Appelbaum",
             "occupation": "Independent Computer Security Researcher",
             "description": "Jacob Appelbaum is an independent computer security researcher and hacker, and core member of the Tor Project. He represented Wikileaks at the 2010 Hope conference, and, as a confidant of the former NSA contractor Edward Snowden, was among those who gained access to documents for public release during the 2013 global surveillance disclosure.",
-            "photo": "./images/participants/technologist/p_jacob.png"
+            "photo": "./images/participants/technologist/p_jacob.png",
+            "twitter": "ioerror"
         },
 
         "thumbnail": "./images/participants/thumbs/t_aiweiwei_jacob.png"
@@ -21,14 +23,16 @@
             "name": "Trevor Paglen",
             "occupation": "Artist",
             "description": "Trevor Paglen is an American artist, geographer, and author. He constructs unfamiliar, yet meticulously researched ways to see and interpret the world through photography and other media. He has recently been exhibited at the Metropolitan Museum of Art, Tate Modern, and the Walker Arts Center, among others.",
-            "photo": "./images/participants/artist/p_trevor.png"
+            "photo": "./images/participants/artist/p_trevor.png",
+            "twitter": "trevorpaglen"
         },
 
         "technologist": {
             "name": "Mike Krieger",
             "occupation": "Co-founder, Instagram",
             "description": "Mike Krieger is co-founder and Technical Lead of Instagram. A native of São Paulo, Brazil, Mike holds an MS in Symbolic Systems from Stanford University. Prior to founding Instagram, he worked at Meebo as a user experience designer and front-end engineer.",
-            "photo": "./images/participants/technologist/p_mike.png"
+            "photo": "./images/participants/technologist/p_mike.png",
+            "twitter": "mikeyk"
         },
 
         "thumbnail": "./images/participants/thumbs/t_trevor_mike.png"
@@ -38,14 +42,16 @@
             "name": "Stanya Kahn",
             "occupation": "Artist",
             "description": "Stanya Kahn is an interdisciplinary artist working primarily in video. Humor, pathos, and the uncanny emerge as central modes in her hybrid media practice. Recent solo exhibitions include the New Museum, Pigna Projectspace, and Cornerhouse, and her works have been included in exhibitions at the Whitney Biennial, The California Biennial, the Museum of Modern Art, and more.",
-            "photo": "./images/participants/artist/p_stanya.png"
+            "photo": "./images/participants/artist/p_stanya.png",
+            "twitter": "stanyakahn"
         },
 
         "technologist": {
             "name": "Rus Yusupov",
             "occupation": "Co-founder, Vine",
             "description": "Rus Yusupov is co-founder and Creative Director of Vine. A digital product designer and entrepreneur, he holds a BFA in Graphic Design from the School of Visual Arts. Prior to Vine, he founded design studio Big Human and was an adjunct instructor at NYU.",
-            "photo": "./images/participants/technologist/p_rus.png"
+            "photo": "./images/participants/technologist/p_rus.png",
+            "twitter": "rus"
         },
 
         "thumbnail": "./images/participants/thumbs/t_stanya_rus.png"
@@ -55,14 +61,16 @@
             "name": "Hannah Black",
             "occupation": "Artist",
             "description": "Hannah Black is an artist and writer. Her work is mostly assembled from fragments of pop music andautobiography, drawing on feminist, communist, and black radical thought. Her videos have been shown at W139, Embassy, and Triple Canopy, and writing in The New Inquiry and Art in America. She participated in Whitney Museum's Independent Study Program and holds an MFA in Art Writing from Goldsmiths.",
-            "photo": "./images/participants/artist/p_hannah.png"
+            "photo": "./images/participants/artist/p_hannah.png",
+            "twitter": "nanpansky"
         },
 
         "technologist": {
             "name": "thricedotted",
             "occupation": "&nbsp;",
             "description": "thricedotted is a language hacker who commands a legion of over thirty bots on Twitter, including @portmanteau_bot and @wikisext. They also meta-authored the automatically generated novel The Seeker for #NaNoGenMo 2014. They are a PhD candidate at the University of Washington working in natural language processing.",
-            "photo": "./images/participants/technologist/p_thricedotted.png"
+            "photo": "./images/participants/technologist/p_thricedotted.png",
+            "twitter": "thricedotted"
         },
 
         "thumbnail": "./images/participants/thumbs/t_hannah_thricedotted.png"
@@ -73,14 +81,16 @@
             "name": "Martine Syms",
             "occupation": "Artist",
             "description": "Martine Syms is an artist and conceptual entrepreneur. She is founder of Golden Age, a project space focused on printed matter, and DOMINICA, an imprint dedicated to exploring blackness as a topic, reference, marker, and audience in visual culture. She has had presentations at the New Museum, Institute of Contemporary Art, MCA Chicago, Young Art, and more.",
-            "photo": "./images/participants/artist/p_martine.png"
+            "photo": "./images/participants/artist/p_martine.png",
+            "twitter": "martinesyms"
         },
 
         "technologist": {
             "name": "Gina Trapani",
             "occupation": "ThinkUp",
             "description": "Gina Trapani is an award-winning writer and programmer. She is co-founder of ThinkUp, a social data insights engine, and founding editor of Lifehacker. She created Todo.txt, and Narrow the Gap, a US Bureau of Labor Statistics data-driven website about the gender pay gap. Her work translates cutting-edge technology into insights that boost personal productivity.",
-            "photo": "./images/participants/technologist/p_gina.png"
+            "photo": "./images/participants/technologist/p_gina.png",
+            "twitter": "ginatrapani"
         },
 
         "thumbnail": "./images/participants/thumbs/t_martine_gina.png"
@@ -98,7 +108,8 @@
             "name": "Nate Silver",
             "occupation": "FiveThirtyEight",
             "description": "Nate Silver is a statistician, political forecaster and founder of FiveThirtyEight, who became known when his predictions during the 2008 presidential election trumped most mainstream polls. He is a contributor to the New York Times Magazine and has appeared as a commentator on CNN and MSNBC. He was named one of TIME's 100 Most Influential People in the world.",
-            "photo": "./images/participants/technologist/p_nate.png"
+            "photo": "./images/participants/technologist/p_nate.png",
+            "twitter": "natesilver538"
         },
 
         "thumbnail": "./images/participants/thumbs/t_liam_nate.png"
@@ -115,7 +126,8 @@
             "name": "Harlo Holmes",
             "occupation": "The Guardian Project",
             "description": "Harlo Holmes is a media scholar, software programmer, and activist. As Head of Metadata at The Guardian Project, she investigates topics in digital media steganography, metadata, and the standards surrounding technology in the social sciences. She works in service of the growing technological needs of human rights workers, journalists, and do-gooders worldwide.",
-            "photo": "./images/participants/technologist/p_harlo.png"
+            "photo": "./images/participants/technologist/p_harlo.png",
+            "twitter": "harlo"
         },
 
         "thumbnail": "./images/participants/thumbs/t_camille_harlo.png"

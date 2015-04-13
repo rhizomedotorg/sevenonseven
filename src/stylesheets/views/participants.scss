@@ -58,6 +58,24 @@
             padding-top: 33px;
         }
 
+        .social {
+            padding-top: 33px;
+            a {
+                text-decoration: none;
+                border-bottom: solid 2px $purple;
+                text-transform: uppercase;
+                color: $purple;
+
+                &:hover {
+                    color: lighten($purple, 10%);
+                    border-bottom-color: lighten($purple, 10%);
+                }
+
+                padding-bottom: 3px;
+            }
+            padding-bottom: 33px;
+        }
+
     }
 
     .mini-participant {
