@@ -5,6 +5,14 @@ html(lang="en")
         meta(http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8; IE=7; IE=EDGE")
         meta(charset="UTF-8")
         block meta
+            title
+                | Seven on Seven | Empathy & Disgust
+            meta(property="og:site_name", content="Seven on Seven")
+            meta(property="og:url", content="http://sevenonseven.rhizome.org/")
+            meta(property="og:title", content="Seven on Seven 7th Edition: Empathy & Disgust")
+            meta(property="og:description", content="Presented by Rhizome, the Seven on Seven conference pairs seven leading artists with seven luminary technologists, and challenges them to make something new together over the course of a single day.")
+            meta(property="og:image", content="#{STATIC_URL}images/share.png")
+
         link(rel='stylesheet', href='#{STATIC_URL}css/app.css')
 
 body
@@ -15,3 +23,4 @@ body
 
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
     script(src='#{STATIC_URL}js/app.js')
+
