@@ -2992,7 +2992,7 @@ img {
 html, body {
   font-family: 'Dosis', sans-serif;
   font-weight: 400;
-  color: white;
+  color: #404041;
   background-color: #5f3eff;
   letter-spacing: 1.5px; }
 
@@ -3111,7 +3111,8 @@ h3 {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #5f3eff; }
+  background-color: white;
+  color: #404041; }
   .hero .content-container .navigation {
     position: absolute;
     right: 5%;
@@ -3124,7 +3125,7 @@ h3 {
         margin-left: 20px; }
         .hero .content-container .navigation ul li a {
           text-decoration: none;
-          color: white;
+          color: #404041;
           border-bottom: solid 0 #5f3eff;
           -webkit-transition: all 0.3s;
           transition: all 0.3s; }
@@ -3166,10 +3167,10 @@ h3 {
       border-bottom: solid 1px #5f3eff; }
       .hero .content-container .social .hashtag a {
         text-decoration: none;
-        color: white; }
+        color: #404041; }
         .hero .content-container .social .hashtag a:visited {
           text-decoration: none;
-          color: white; }
+          color: #404041; }
       .hero .content-container .social .hashtag:hover {
         border-bottom-color: white; }
     .hero .content-container .social .icon {
@@ -3240,7 +3241,7 @@ h3 {
         text-transform: uppercase; }
 
 svg circle {
-  fill: white; }
+  fill: #5f3eff; }
 svg .circle-group {
   cursor: pointer; }
 
@@ -3607,134 +3608,3 @@ svg .circle-group {
     font-size: 14px;
     text-transform: uppercase;
     margin-bottom: 33px; }
-
-.mobile {
-  background-color: white;
-  text-align: center;
-  width: 100%; }
-  .mobile .content {
-    background-color: white; }
-  .mobile .large {
-    font-size: 27px; }
-  .mobile.hero {
-    position: absolute; }
-  .mobile .counter {
-    width: 60%;
-    margin: 0 auto;
-    margin-top: 15px;
-    text-align: center;
-    text-transform: uppercase; }
-    .mobile .counter tr {
-      width: 100%; }
-    .mobile .counter td {
-      width: 33%; }
-  .mobile .mobile-logo {
-    margin: 0 auto;
-    margin-top: 30px;
-    text-align: center;
-    width: 76px;
-    height: 76px;
-    background-size: 100%;
-    background-image: url(../images/mobile-logo.png); }
-  .mobile .announcement {
-    margin-top: 30px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 16px;
-    width: 60%; }
-    .mobile .announcement .save-the-date {
-      text-transform: uppercase;
-      font-size: 18px;
-      margin-bottom: 30px; }
-    .mobile .announcement .location {
-      font-size: 18px;
-      margin-bottom: 30px;
-      text-transform: uppercase; }
-  .mobile .meta-section {
-    margin-top: 40px; }
-    .mobile .meta-section .details {
-      font-size: 12px;
-      margin-bottom: 10px; }
-    .mobile .meta-section img {
-      width: 30%;
-      margin-top: 10px; }
-    .mobile .meta-section .social img {
-      height: 20px;
-      margin-top: 0;
-      width: auto; }
-    .mobile .meta-section .social table {
-      width: 20%;
-      text-align: center;
-      margin: 0 auto; }
-      .mobile .meta-section .social table tr {
-        width: 100%; }
-        .mobile .meta-section .social table tr td {
-          width: 50%; }
-    .mobile .meta-section .mobile-hashtag {
-      margin-bottom: 30px; }
-  .mobile .cell {
-    margin-top: 33px; }
-    .mobile .cell .button {
-      margin-top: 33px;
-      margin-bottom: 33px;
-      position: static; }
-  .mobile .left {
-    text-align: left; }
-  .mobile .right {
-    text-align: right; }
-  .mobile .about {
-    text-align: center; }
-    .mobile .about .large {
-      text-align: center; }
-    .mobile .about .details {
-      text-align: center; }
-    .mobile .about img {
-      margin-bottom: 33px;
-      margin-top: 33px; }
-  .mobile .section {
-    margin-bottom: 75px; }
-  .mobile .seven-on-seven-title {
-    font-weight: 500; }
-  .mobile .announcement-container {
-    margin-top: 75px; }
-  .mobile .mobile-participant {
-    width: 100%;
-    float: none;
-    margin: 15px auto;
-    margin-bottom: 80px; }
-    .mobile .mobile-participant .participant-names {
-      font-size: 22px; }
-    .mobile .mobile-participant .name {
-      margin-top: 30px; }
-  .mobile .final-partners {
-    font-size: 12px; }
-
-/* #Media Queries
-================================================== */
-/* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 1200px) {
-  .ticket-box .large {
-    font-size: 44px; } }
-
-@media only screen and (max-width: 990px) {
-  .ticket-box .large {
-    font-size: 36px; } }
-
-/* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) { }
-
-/* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 420px) { }
-
-@media only screen and (min-width: 767px) and (max-width: 880px) { }
-
-/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) { }
-
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 800px) {
-  .desktop {
-    display: none; }
-  .mobile {
-    display: block !important; } }
