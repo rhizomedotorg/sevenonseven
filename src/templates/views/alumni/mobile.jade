@@ -1,0 +1,23 @@
+
+
+.alumni-container
+
+    .row.alumni-nav
+        .center-column
+            .row
+                for sxs, i in alumni
+                    .year-column.centered
+                        if i === 0
+                            .previous-year.selected(data-index="#{i}")
+                                .year
+                                    | !{sxs.shortTitle || sxs.title}
+                        else
+                            .previous-year(data-index="#{i}")
+                                .year
+                                    | !{sxs.shortTitle || sxs.title}
+
+
+    - var sxs = alumni[0]
+
+    .year-container
+        include ./includes/mobile-year

@@ -7,6 +7,7 @@
 // responsible for instantiating correct viewcontrollers.
 //
 // require('./lib/jquery.modal.js');
+var MobileAlumniView = require('./views/mobile-alumni');
 
 $(function() {
 
@@ -40,6 +41,9 @@ $(function() {
         $('.mini-participant').click(function() {
             $(this).parent().find('.mobile-description').fadeToggle();
         })
+        new MobileAlumniView({
+            el: $('#mobile-archive')[0]
+        });
     }
 
     $('.overflow-hidden').css('overflow', 'hidden');

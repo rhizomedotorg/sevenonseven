@@ -12,12 +12,13 @@
 
 .row
     .column-12.centered.project-title.large
-        | #{team.title}
+        i
+            | #{team.title}
 
 .row
     .column-8.center-column
         p.centered
-            | #{team.description}
+            | !{team.description}
 
 
 if team.press && team.press.length

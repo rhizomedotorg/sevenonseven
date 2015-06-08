@@ -1,0 +1,104 @@
+
+.row
+    .column-12.centered
+        .lead-in
+            | #{sxs.title} Feature Project
+
+
+- var team = sxs.participants[0]
+.row
+    .column-12.centered.large
+        span.artist
+            | #{team.artist} 
+        | & 
+        span.technologist
+            | #{team.technologist}
+
+.row
+    .column-12.centered.project-title.large
+        i
+            | #{team.title}
+
+.row
+    .column-8.center-column
+        p.centered
+            | !{team.description}
+
+
+if team.press && team.press.length
+    .row
+        .column-12.centered.press
+            .lead-in
+                | Press
+
+            for p in team.press
+                .press-item
+                    a(href="#{p.url}")
+                        | #{p.title}
+
+
+.row
+    .column-10.center-column.centered
+        a(href="#{team.externalLocation || 'https://player.vimeo.com/video/' + team.video}").featured-thumbnail
+            img(src="#{team.thumbnail}")
+
+
+.row
+    .column-12.centered.lead-in.more
+        | More #{sxs.title} Participants
+
+- var idx = 0
+for teamGroup in utils.groupArrayByN(sxs.participants.slice(1), 3)
+    .row
+        .column-10.center-column
+            for team in teamGroup
+                - idx += 1
+                if teamGroup.length === 1
+                    .column-4.center-column
+
+                        .alumni-thumbnail
+                            a(href="#{team.externalLocation || 'https://player.vimeo.com/video/' + team.video}")
+                                img(src="#{team.thumbnail}")
+
+                            .description
+                                if team.keynote
+                                    | #{team.keynote} Keynote
+
+                                else
+                                    if team.artist !== ''
+                                        span.artist
+                                            | #{team.artist} 
+                                        | & 
+                                        span.technologist
+                                            | #{team.technologist} 
+                                    else 
+                                        span.technologist
+                                            | #{team.technologist} 
+
+                                    //- | • 
+                                    //- | #{team.title}
+
+                else
+                    .column-4
+                        .alumni-thumbnail
+                            a(href="#{team.externalLocation || 'https://player.vimeo.com/video/' + team.video}")
+                                img(src="#{team.thumbnail}")
+
+                            .description
+                                if team.keynote
+                                    | #{team.keynote} Keynote
+
+                                else
+                                    if team.artist !== ''
+                                        span.artist
+                                            | #{team.artist} 
+                                        | & 
+                                        span.technologist
+                                            | #{team.technologist} 
+                                    else 
+                                        span.technologist
+                                            | #{team.technologist} 
+
+                                    //- | • 
+
+
