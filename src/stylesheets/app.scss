@@ -2,6 +2,7 @@
 @import "fonts";
 @import "lib/animate";
 // @import "lib/base";
+@import "lib/modal";
 @import "lib/shelves";
 
 $purple: #5f3eff;
@@ -129,6 +130,10 @@ h3 {
 
 .section {
     // margin-bottom: 150px;
+}
+
+.modal {
+    color: #444;
 }
 
 

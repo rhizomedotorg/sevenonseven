@@ -34,6 +34,6 @@ if team.press && team.press.length
 
 .row
     .column-10.center-column.centered
-        .featured-thumbnail(data-index="0")
+        .featured-thumbnail(data-index="0", data-external-location="#{team.externalLocation || false}")
             img(src="#{team.thumbnail}")
 

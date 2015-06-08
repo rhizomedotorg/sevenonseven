@@ -33,4 +33,19 @@
         
     }
 
+    a {
+        &.rhizome {
+            color: $purple;
+            text-decoration: none;
+            border-bottom: solid 1px $purple;
+        }
+    }
+
+    .underlined {
+        color: $purple;
+        text-decoration: none;
+        border-bottom: solid 1px $purple;
+
+    }
+
 }

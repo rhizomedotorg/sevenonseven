@@ -5,6 +5,7 @@ var alumni = require('../data/alumni');
 var template = require('../../templates/views/alumni/includes/year.jade');
 var overlayTemplate = require('../../templates/views/alumni/includes/video-overlay.jade');
 var utils = require('../utils');
+var _ = require('lodash');
 
 var AlumniView = AmpersandView.extend({
     
@@ -38,17 +39,30 @@ var AlumniView = AmpersandView.extend({
     },
 
     showVideo: function(e) {
+
+        var $target = $(e.target).closest('.alumni-thumbnail, .featured-thumbnail');
+
+        if($target.data('external-location')) {
+            return window.location.href = $target.data('external-location');
+        }
+        
         var participantIndex = $(e.target).closest('.alumni-thumbnail, .featured-thumbnail').data('index');
         this.showVideoWithIndex(participantIndex);
     },
 
     showVideoWithIndex: function(i) {
 
-        var prev = (i > 0) ? this.currentEvent.participants[i-1] : null;
+        var prev;
+
+        console.log(this.currentEvent);
+        if(this.currentEvent.title === '2015') {
+            prev = (i > 1) ? this.currentEvent.participants[i-1] : null;
+        } else {
+             prev = (i > 0) ? this.currentEvent.participants[i-1] : null;
+        }
+        
         var next = (i < this.currentEvent.participants.length - 1) ? this.currentEvent.participants[i+1] : null;
         var current = this.currentEvent.participants[i];
-
-        console.log(prev, next, current);
 
         var videoWidth = $(window).width() * 0.7;
         var videoHeight = videoWidth * 9 / 16;

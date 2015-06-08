@@ -1,5 +1,73 @@
 [
     {
+        "title": "2015",
+        "participants": [
+            {
+                "technologist": "Jacob Appelbaum",
+                "artist": "Ai Weiwei",
+                "title": "Panda-to-Panda",
+                "description": "In a ‘first’ for Seven on Seven, the pairing of artist Ai Weiwei and Jacob Appelbaum (Tor Project, Wikileaks) did not meet in New York, since each of their political activities meant that they were barred from traveling to the US. Instead, they met at Weiwei’s studio in Beijing. Over the course of two days, in the week leading up to Seven on Seven, they made the collaborative artwork Panda-to-Panda, comprised of twenty toy pandas from which the stuffing was removed and replaced with shredded Snowden documents and an SD card (contents unknown, supplied by Appelbaum). Oscar-winning filmmaker Laura Poitras documented the duo and her film, published by the New York Times, tells the story.",
+                "video": "96131398",
+                "thumbnail": "./images/alumni/2015/weiweijacob.png",
+                "externalLocation": "http://www.nytimes.com/video/op-docs/",
+                "press": [
+                    {
+                        "title": "New York Times",
+                        "url": "http://www.nytimes.com/video/op-docs/"
+                    }
+                ]
+            },
+            {
+                "keynote": "Laura Poitras with Kate Crawford",
+                "title": "",
+                "video": "127483981",
+                "thumbnail": "./images/alumni/2015/poitras_keynote.png"
+            },
+            {
+                "technologist": "Gina Trapani",
+                "artist": "Martine Syms",
+                "title": "",
+                "video": "129941551",
+                "thumbnail": "./images/alumni/2015/martine_gina.png"
+            },
+            {
+                "technologist": "Mike Krieger",
+                "artist": "Trevor Paglen",
+                "title": "",
+                "video": "129803055",
+                "thumbnail": "./images/alumni/2015/harvey_krieger_paglen.png"
+            },
+            {
+                "technologist": "Rus Yusupov",
+                "artist": "Stanya Kahn",
+                "title": "",
+                "video": "129772505",
+                "thumbnail": "./images/alumni/2015/stanya_rus.png"
+            },
+            {
+                "technologist": "Nate Silver",
+                "artist": "Liam Gillick",
+                "title": "",
+                "video": "129768618",
+                "thumbnail": "./images/alumni/2015/liam_nate.png"
+            },
+            {
+                "technologist": "Harlo Holmes",
+                "artist": "Camille Henrot",
+                "title": "",
+                "video": "129717576",
+                "thumbnail": "./images/alumni/2015/camille_harlo.png"
+            },
+            {
+                "technologist": "thricedotted",
+                "artist": "Hannah Black",
+                "title": "",
+                "video": "129725076",
+                "thumbnail": "./images/alumni/2015/thrice_hanna.png"
+            }
+        ]
+    },
+    {
         "title": "2014",
         "participants": [
             {

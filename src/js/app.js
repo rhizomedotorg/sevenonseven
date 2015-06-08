@@ -6,7 +6,7 @@
 // required here (e.g. pym.js), and it should also be
 // responsible for instantiating correct viewcontrollers.
 //
-
+// require('./lib/jquery.modal.js');
 
 $(function() {
 
@@ -43,5 +43,12 @@ $(function() {
     }
 
     $('.overflow-hidden').css('overflow', 'hidden');
+
+
+    // setTimeout(function() {
+    //     $('.welcome.modal').modal({
+    //         fadeDuration: 500
+    //     });
+    // }, 100)
 
 });
