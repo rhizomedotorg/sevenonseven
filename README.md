@@ -16,5 +16,5 @@ gulp
 
 ## License
 
-Copyright (c) 2015 Matthew Conlen  
+Copyright (c) 2015 Rhizome.org  
 Licensed under the MIT license.
